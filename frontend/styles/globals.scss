@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+p {
+  margin: 0;
+}
+.btn {
+  &-reset {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}

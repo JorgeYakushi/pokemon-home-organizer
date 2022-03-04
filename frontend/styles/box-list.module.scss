@@ -1,0 +1,42 @@
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  p {
+    font-size: 10px;
+  }
+}
+
+.table {
+  display: inline-block;
+  width: 768px;
+  &__head {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3ab1db;
+    border-radius: 20px 20px 0 0;
+    padding: 0.5rem 1rem;
+    > * {
+      min-width: 40px;
+    }
+  }
+  &__body {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    justify-content: space-between;
+    grid-gap: 15px;
+    border: 4px solid #82cfe7;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
+    padding: 1.5rem 2rem;
+  }
+  .page-name {
+    background-color: white;
+    width: 80%;
+    border-radius: 20px;
+    padding: 0.5rem 2rem;
+    text-align: center;
+  }
+}
