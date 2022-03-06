@@ -8,15 +8,16 @@ export const boxes: IBox[] = [
       {
         boxNumber: 1,
         boxLocation: 1,
-        pokemonId: null,
-        pokeballId: null,
-        isShiny: null,
+        pokemonId: 1,
+        pokeballId: 1,
+        isShiny: true,
         regionCaughtId: null,
         gender: null,
-        form: null,
+        form: 1,
         needsToEvolve: null,
         correctPokeball: null,
         stored: null,
+        sprite: 'poke_capture_0001_000_mf_n_00000000_f_n.png'
       },
       {
         boxNumber: 1,

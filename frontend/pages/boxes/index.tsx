@@ -1,4 +1,5 @@
-import { FC, useState } from "react";
+import { useState } from "react";
+import type { NextPage } from "next";
 import { boxes } from "../../mocks/boxes";
 import { useEffect } from "react";
 import { IBox } from "../../common/interfaces/box.interface";
@@ -6,7 +7,7 @@ import styles from "../../styles/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { filenames } from "../../mocks/filenames";
-const BoxList: FC = () => {
+const BoxList: NextPage = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize: number = 30;
   const totalPages: number = Math.ceil(boxes.length / pageSize);
@@ -16,34 +17,36 @@ const BoxList: FC = () => {
     const paginateBox = () => {
       setBox(boxes.slice((currentPage - 1) * pageSize, currentPage * pageSize));
     };
-    const iterateFileNames = () => {
-      let pokemonDexNum: number;
-      let genderCode: string;
-      let formCode: string;
-      let spriteType: string;
-      let formNumber: string;
-      filenames.map((item: string) => {
-        pokemonDexNum = parseInt(item.substring(13, 17));
-        genderCode = item.substring(22, 24);
-        formCode = item.substring(25, 26);
-        spriteType = item.substring(38, 39);
-        formNumber = item.substring(18, 21);
+    // const iterateFileNames = () => {
+    //   let pokemonDexNum: number;
+    //   let genderCode: string;
+    //   let formCode: string;
+    //   let spriteType: string;
+    //   let formNumber: string;
+    //   let pokeArray: string[] = [];
+    //   filenames.map((item: string) => {
+    //     pokemonDexNum = parseInt(item.substring(13, 17));
+    //     genderCode = item.substring(22, 24);
+    //     formCode = item.substring(25, 26);
+    //     spriteType = item.substring(38, 39);
+    //     formNumber = item.substring(18, 21);
 
-        if (
-          genderCode === "mf" ||
-          genderCode == "uk" ||
-          genderCode == "fd" ||
-          genderCode === "mo" ||
-          genderCode === "fo"
-        ) {
-          if (formCode === "n" && spriteType === "n" && formNumber === "000") {
-            console.log(item);
-          }
-        }
-      });
-    };
+    //     if (
+    //       genderCode === "mf" ||
+    //       genderCode == "uk" ||
+    //       genderCode == "fd" ||
+    //       genderCode === "mo" ||
+    //       genderCode === "fo"
+    //     ) {
+    //       if (formCode === "n" && spriteType === "n" && formNumber === "000") {
+    //         pokeArray.push(item);
+    //       }
+    //     }
+    //   });
+    //   console.log(boxes);
+    //   console.log(pokeArray);
+    // }; iterateFileNames();
     paginateBox();
-    iterateFileNames();
   }, [currentPage]);
 
   const prevPage = () => {
@@ -95,12 +98,14 @@ const BoxList: FC = () => {
             <div className={styles.box} key={box.number}>
               <p>{box.number}</p>
               <Link href={`/box/${box.number}`} passHref>
-                <Image
-                  src="/open-cardboard-box.svg"
-                  alt="empty-box"
-                  width={50}
-                  height={50}
-                />
+                <a>
+                  <Image
+                    src="/open-cardboard-box.svg"
+                    alt="empty-box"
+                    width={50}
+                    height={50}
+                  />
+                </a>
               </Link>
               <p>{box.name}</p>
             </div>

@@ -1,10 +1,11 @@
-import { FC, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import type { NextPage } from "next";
 import { useRouter } from "next/router";
 import { boxes } from "../../mocks/boxes";
 import { IBox } from "../../common/interfaces/box.interface";
 import styles from "../../styles/table.module.scss";
 import Image from "next/image";
-const Box: FC = () => {
+const Box: NextPage = () => {
   const router = useRouter();
   const boxId = parseInt(router.query.boxId as string, 10);
   const [box, setBox] = useState<IBox>();
@@ -60,7 +61,14 @@ const Box: FC = () => {
           {box?.boxItems.map((pokemon, index) => (
             <div className={styles.box} key={index}>
               {pokemon.pokemonId ? (
-                <p>ASD</p>
+                <div className={styles.item}>
+                  <Image
+                    src={`/sprites/${pokemon.sprite}`}
+                    alt="no pokemon"
+                    height={50}
+                    width={50}
+                  />
+                </div>
               ) : (
                 <div>
                   <Image

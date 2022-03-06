@@ -4,14 +4,34 @@
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
+
   p {
     font-size: 10px;
+  }
+  .item {
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 150%;
+      height: 150%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      background: var(--circle-shadow);
+      border-radius: 200px;
+      z-index: 0;
+    }
+    > span {
+      z-index: 2;
+    }
   }
 }
 
 .table {
   display: inline-block;
   width: 768px;
+
   &__head {
     display: flex;
     justify-content: space-between;
@@ -31,6 +51,7 @@
     border-top: none;
     border-radius: 0 0 20px 20px;
     padding: 1.5rem 2rem;
+    background-color: var(--color-primary-light2c);
   }
   .page-name {
     background-color: white;

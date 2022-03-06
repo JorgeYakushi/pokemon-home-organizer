@@ -10,6 +10,7 @@ export interface IBoxItem {
   needsToEvolve: boolean | null;
   correctPokeball: boolean | null;
   stored: boolean | null;
+  sprite?: string;
 }
 export interface IBox {
   boxItems: IBoxItem[];
