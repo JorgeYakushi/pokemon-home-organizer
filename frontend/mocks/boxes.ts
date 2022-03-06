@@ -1,4 +1,5 @@
 import { IBox } from "../common/interfaces/box.interface";
+
 export const boxes: IBox[] = [
   {
     number: 1,
