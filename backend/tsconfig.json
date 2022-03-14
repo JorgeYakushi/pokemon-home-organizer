@@ -1,11 +1,12 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src/",
+    "baseUrl": "./src",
     "target": "es6",
     "module": "commonjs",
     "outDir": "dist/js",
     "rootDir": "src",
     "strict": true,
+    "noImplicitAny": false,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "paths": {
