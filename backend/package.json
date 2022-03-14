@@ -6,21 +6,8 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "nodemon -r dotenv/config src/app.ts",
+    "dev": "nodemon -r tsconfig-paths/register -r dotenv/config src/app.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "nodemonConfig": {
-    "ignore": [
-      "**/*.test.ts",
-      "**/*.spec.ts",
-      ".git",
-      "node_modules"
-    ],
-    "watch": [
-      "src"
-    ],
-    "exec": "ts-node -r tsconfig-paths/register ./src/app.ts",
-    "ext": "ts, js"
   },
   "keywords": [],
   "author": "",
