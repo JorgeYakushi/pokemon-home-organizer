@@ -36,5 +36,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 
-backend/nodemon.json
-backend/.env
+
+.env

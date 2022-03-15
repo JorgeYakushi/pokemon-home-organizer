@@ -13,6 +13,7 @@ const getBoxes = async (req: Request, res: Response): Promise<void> => {
 
 const addBox = async (req: Request, res: Response): Promise<void> => {
   try {
+    console.log(req.body);
     const body = req.body as Pick<IBox, "name" | "number">;
     const box: IBox = new Box({
       name: body.name,

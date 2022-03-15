@@ -12,7 +12,7 @@ const BoxList: NextPage = () => {
   const pageSize: number = 30;
   const totalPages: number = Math.ceil(boxes.length / pageSize);
   const [box, setBox] = useState<IBox[]>([]);
-
+  console.log(process.env.BACKEND_API);
   useEffect(() => {
     const paginateBox = () => {
       setBox(boxes.slice((currentPage - 1) * pageSize, currentPage * pageSize));
@@ -59,8 +59,26 @@ const BoxList: NextPage = () => {
       setCurrentPage(currentPage + 1);
     }
   };
+  const addBox = () => {
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ name: 1, number: 11 }),
+    };
+    console.log(requestOptions);
+    fetch(`${process.env.BACKEND_API}/add-box`, requestOptions)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  };
+  const getBoxes = () => {
+    fetch(`${process.env.BACKEND_API}/boxes`)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  };
   return (
     <div className="container">
+      <button onClick={getBoxes}>GET BOXES</button>
+      <button onClick={addBox}>ADD BOX</button>
       <div className={styles.table}>
         <div className={styles.table__head}>
           <div>
