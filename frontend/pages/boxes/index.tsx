@@ -6,46 +6,20 @@ import { IBox } from "../../common/interfaces/box.interface";
 import styles from "../../styles/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import { filenames } from "../../mocks/filenames";
+
+import spritespecies from "../../mocks/specieswithsprites.json";
+
 const BoxList: NextPage = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize: number = 30;
   const totalPages: number = Math.ceil(boxes.length / pageSize);
   const [box, setBox] = useState<IBox[]>([]);
-  console.log(process.env.BACKEND_API);
+
   useEffect(() => {
     const paginateBox = () => {
       setBox(boxes.slice((currentPage - 1) * pageSize, currentPage * pageSize));
     };
-    // const iterateFileNames = () => {
-    //   let pokemonDexNum: number;
-    //   let genderCode: string;
-    //   let formCode: string;
-    //   let spriteType: string;
-    //   let formNumber: string;
-    //   let pokeArray: string[] = [];
-    //   filenames.map((item: string) => {
-    //     pokemonDexNum = parseInt(item.substring(13, 17));
-    //     genderCode = item.substring(22, 24);
-    //     formCode = item.substring(25, 26);
-    //     spriteType = item.substring(38, 39);
-    //     formNumber = item.substring(18, 21);
 
-    //     if (
-    //       genderCode === "mf" ||
-    //       genderCode == "uk" ||
-    //       genderCode == "fd" ||
-    //       genderCode === "mo" ||
-    //       genderCode === "fo"
-    //     ) {
-    //       if (formCode === "n" && spriteType === "n" && formNumber === "000") {
-    //         pokeArray.push(item);
-    //       }
-    //     }
-    //   });
-    //   console.log(boxes);
-    //   console.log(pokeArray);
-    // }; iterateFileNames();
     paginateBox();
   }, [currentPage]);
 
@@ -79,6 +53,7 @@ const BoxList: NextPage = () => {
     <div className="container">
       <button onClick={getBoxes}>GET BOXES</button>
       <button onClick={addBox}>ADD BOX</button>
+
       <div className={styles.table}>
         <div className={styles.table__head}>
           <div>

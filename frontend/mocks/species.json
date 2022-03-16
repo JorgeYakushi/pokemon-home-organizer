@@ -1,0 +1,8982 @@
+[
+  {
+    "pokemonId": 1,
+    "name": "bulbasaur",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 2,
+    "name": "ivysaur",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 1,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 3,
+    "name": "venusaur",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 2,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 4,
+    "name": "charmander",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 5,
+    "name": "charmeleon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 4,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 6,
+    "name": "charizard",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 5,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 7,
+    "name": "squirtle",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 8,
+    "name": "wartortle",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 7,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 9,
+    "name": "blastoise",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 8,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 10,
+    "name": "caterpie",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 11,
+    "name": "metapod",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 10,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 12,
+    "name": "butterfree",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 11,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 13,
+    "name": "weedle",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 14,
+    "name": "kakuna",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 13,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 15,
+    "name": "beedrill",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 14,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 16,
+    "name": "pidgey",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 17,
+    "name": "pidgeotto",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 16,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 18,
+    "name": "pidgeot",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 17,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 19,
+    "name": "rattata",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 20,
+    "name": "raticate",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 19,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 21,
+    "name": "spearow",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 22,
+    "name": "fearow",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 21,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 23,
+    "name": "ekans",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 24,
+    "name": "arbok",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 23,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 25,
+    "name": "pikachu",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 172,
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 26,
+    "name": "raichu",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 25,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 27,
+    "name": "sandshrew",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 28,
+    "name": "sandslash",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 27,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 29,
+    "name": "nidoran-f",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 30,
+    "name": "nidorina",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 29,
+    "genderRate": 8,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 31,
+    "name": "nidoqueen",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 30,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 32,
+    "name": "nidoran-m",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 33,
+    "name": "nidorino",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 32,
+    "genderRate": 0,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 34,
+    "name": "nidoking",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 33,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 35,
+    "name": "clefairy",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 173,
+    "genderRate": 6,
+    "captureRate": 150,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 36,
+    "name": "clefable",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 35,
+    "genderRate": 6,
+    "captureRate": 25,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 37,
+    "name": "vulpix",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 38,
+    "name": "ninetales",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 37,
+    "genderRate": 6,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 39,
+    "name": "jigglypuff",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 174,
+    "genderRate": 6,
+    "captureRate": 170,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 40,
+    "name": "wigglytuff",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 39,
+    "genderRate": 6,
+    "captureRate": 50,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 41,
+    "name": "zubat",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 42,
+    "name": "golbat",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 41,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 43,
+    "name": "oddish",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 44,
+    "name": "gloom",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 43,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 45,
+    "name": "vileplume",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 44,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 46,
+    "name": "paras",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 47,
+    "name": "parasect",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 46,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 48,
+    "name": "venonat",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 49,
+    "name": "venomoth",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 48,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 50,
+    "name": "diglett",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 51,
+    "name": "dugtrio",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 50,
+    "genderRate": 4,
+    "captureRate": 50,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 52,
+    "name": "meowth",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 53,
+    "name": "persian",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 52,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 54,
+    "name": "psyduck",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 55,
+    "name": "golduck",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 54,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 56,
+    "name": "mankey",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 57,
+    "name": "primeape",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 56,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 58,
+    "name": "growlithe",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 59,
+    "name": "arcanine",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 58,
+    "genderRate": 2,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 60,
+    "name": "poliwag",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 61,
+    "name": "poliwhirl",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 60,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 62,
+    "name": "poliwrath",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 61,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 63,
+    "name": "abra",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 64,
+    "name": "kadabra",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 63,
+    "genderRate": 2,
+    "captureRate": 100,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 65,
+    "name": "alakazam",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 64,
+    "genderRate": 2,
+    "captureRate": 50,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 66,
+    "name": "machop",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 67,
+    "name": "machoke",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 66,
+    "genderRate": 2,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 68,
+    "name": "machamp",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 67,
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 69,
+    "name": "bellsprout",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 70,
+    "name": "weepinbell",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 69,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 71,
+    "name": "victreebel",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 70,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 72,
+    "name": "tentacool",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 73,
+    "name": "tentacruel",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 72,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 74,
+    "name": "geodude",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 75,
+    "name": "graveler",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 74,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 76,
+    "name": "golem",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 75,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 77,
+    "name": "ponyta",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 78,
+    "name": "rapidash",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 77,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 79,
+    "name": "slowpoke",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 80,
+    "name": "slowbro",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 79,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 81,
+    "name": "magnemite",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 82,
+    "name": "magneton",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 81,
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 83,
+    "name": "farfetchd",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 84,
+    "name": "doduo",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 85,
+    "name": "dodrio",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 84,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 86,
+    "name": "seel",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 87,
+    "name": "dewgong",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 86,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 88,
+    "name": "grimer",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 89,
+    "name": "muk",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 88,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 90,
+    "name": "shellder",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 91,
+    "name": "cloyster",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 90,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 92,
+    "name": "gastly",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 93,
+    "name": "haunter",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 92,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 94,
+    "name": "gengar",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 93,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 95,
+    "name": "onix",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 96,
+    "name": "drowzee",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 97,
+    "name": "hypno",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 96,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 98,
+    "name": "krabby",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 99,
+    "name": "kingler",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 98,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 100,
+    "name": "voltorb",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 101,
+    "name": "electrode",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 100,
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 102,
+    "name": "exeggcute",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 103,
+    "name": "exeggutor",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 102,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 104,
+    "name": "cubone",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 105,
+    "name": "marowak",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 104,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 106,
+    "name": "hitmonlee",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 236,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 107,
+    "name": "hitmonchan",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 236,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 108,
+    "name": "lickitung",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 109,
+    "name": "koffing",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 110,
+    "name": "weezing",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 109,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 111,
+    "name": "rhyhorn",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 112,
+    "name": "rhydon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 111,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 113,
+    "name": "chansey",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 440,
+    "genderRate": 8,
+    "captureRate": 30,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 114,
+    "name": "tangela",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 115,
+    "name": "kangaskhan",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 116,
+    "name": "horsea",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 117,
+    "name": "seadra",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 116,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 118,
+    "name": "goldeen",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 119,
+    "name": "seaking",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 118,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 120,
+    "name": "staryu",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 121,
+    "name": "starmie",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 120,
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 122,
+    "name": "mr-mime",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 439,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 123,
+    "name": "scyther",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 124,
+    "name": "jynx",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 238,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 125,
+    "name": "electabuzz",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 239,
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 126,
+    "name": "magmar",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 240,
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 127,
+    "name": "pinsir",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 128,
+    "name": "tauros",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 129,
+    "name": "magikarp",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 5,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 130,
+    "name": "gyarados",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 129,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 5,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 131,
+    "name": "lapras",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 132,
+    "name": "ditto",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 35,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 133,
+    "name": "eevee",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 134,
+    "name": "vaporeon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 135,
+    "name": "jolteon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 136,
+    "name": "flareon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 137,
+    "name": "porygon",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 138,
+    "name": "omanyte",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 139,
+    "name": "omastar",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 138,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 140,
+    "name": "kabuto",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 141,
+    "name": "kabutops",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 140,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 142,
+    "name": "aerodactyl",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 143,
+    "name": "snorlax",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 446,
+    "genderRate": 1,
+    "captureRate": 25,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 144,
+    "name": "articuno",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 145,
+    "name": "zapdos",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 146,
+    "name": "moltres",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 147,
+    "name": "dratini",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 148,
+    "name": "dragonair",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 147,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 149,
+    "name": "dragonite",
+    "generationId": 1,
+    "evolvesFromSpeciesId": 148,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 150,
+    "name": "mewtwo",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 151,
+    "name": "mew",
+    "generationId": 1,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 152,
+    "name": "chikorita",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 153,
+    "name": "bayleef",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 152,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 154,
+    "name": "meganium",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 153,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 155,
+    "name": "cyndaquil",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 156,
+    "name": "quilava",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 155,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 157,
+    "name": "typhlosion",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 156,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 158,
+    "name": "totodile",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 159,
+    "name": "croconaw",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 158,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 160,
+    "name": "feraligatr",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 159,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 161,
+    "name": "sentret",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 162,
+    "name": "furret",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 161,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 163,
+    "name": "hoothoot",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 164,
+    "name": "noctowl",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 163,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 165,
+    "name": "ledyba",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 166,
+    "name": "ledian",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 165,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 167,
+    "name": "spinarak",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 168,
+    "name": "ariados",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 167,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 169,
+    "name": "crobat",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 42,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 170,
+    "name": "chinchou",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 171,
+    "name": "lanturn",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 170,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 172,
+    "name": "pichu",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 173,
+    "name": "cleffa",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 150,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 174,
+    "name": "igglybuff",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 170,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 175,
+    "name": "togepi",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 190,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 176,
+    "name": "togetic",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 175,
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 177,
+    "name": "natu",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 178,
+    "name": "xatu",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 177,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 179,
+    "name": "mareep",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 180,
+    "name": "flaaffy",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 179,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 181,
+    "name": "ampharos",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 180,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 182,
+    "name": "bellossom",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 44,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 183,
+    "name": "marill",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 298,
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 184,
+    "name": "azumarill",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 183,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 185,
+    "name": "sudowoodo",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 438,
+    "genderRate": 4,
+    "captureRate": 65,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 186,
+    "name": "politoed",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 61,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 187,
+    "name": "hoppip",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 188,
+    "name": "skiploom",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 187,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 189,
+    "name": "jumpluff",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 188,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 190,
+    "name": "aipom",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 191,
+    "name": "sunkern",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 192,
+    "name": "sunflora",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 191,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 193,
+    "name": "yanma",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 194,
+    "name": "wooper",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 195,
+    "name": "quagsire",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 194,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 196,
+    "name": "espeon",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 197,
+    "name": "umbreon",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 198,
+    "name": "murkrow",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 199,
+    "name": "slowking",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 79,
+    "genderRate": 4,
+    "captureRate": 70,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 200,
+    "name": "misdreavus",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 201,
+    "name": "unown",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 225,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 202,
+    "name": "wobbuffet",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 360,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 203,
+    "name": "girafarig",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 204,
+    "name": "pineco",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 205,
+    "name": "forretress",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 204,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 206,
+    "name": "dunsparce",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 207,
+    "name": "gligar",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 208,
+    "name": "steelix",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 95,
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 209,
+    "name": "snubbull",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 210,
+    "name": "granbull",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 209,
+    "genderRate": 6,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 211,
+    "name": "qwilfish",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 212,
+    "name": "scizor",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 123,
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 213,
+    "name": "shuckle",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 214,
+    "name": "heracross",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 215,
+    "name": "sneasel",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 216,
+    "name": "teddiursa",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 217,
+    "name": "ursaring",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 216,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 218,
+    "name": "slugma",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 219,
+    "name": "magcargo",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 218,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 220,
+    "name": "swinub",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 221,
+    "name": "piloswine",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 220,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 222,
+    "name": "corsola",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 223,
+    "name": "remoraid",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 224,
+    "name": "octillery",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 223,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 225,
+    "name": "delibird",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 226,
+    "name": "mantine",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 458,
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 227,
+    "name": "skarmory",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 228,
+    "name": "houndour",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 229,
+    "name": "houndoom",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 228,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 230,
+    "name": "kingdra",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 117,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 231,
+    "name": "phanpy",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 232,
+    "name": "donphan",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 231,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 233,
+    "name": "porygon2",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 137,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 234,
+    "name": "stantler",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 235,
+    "name": "smeargle",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 236,
+    "name": "tyrogue",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 75,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 237,
+    "name": "hitmontop",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 236,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 238,
+    "name": "smoochum",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 239,
+    "name": "elekid",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 240,
+    "name": "magby",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 241,
+    "name": "miltank",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 242,
+    "name": "blissey",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 113,
+    "genderRate": 8,
+    "captureRate": 30,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 243,
+    "name": "raikou",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 244,
+    "name": "entei",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 245,
+    "name": "suicune",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 246,
+    "name": "larvitar",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 247,
+    "name": "pupitar",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 246,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 248,
+    "name": "tyranitar",
+    "generationId": 2,
+    "evolvesFromSpeciesId": 247,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 249,
+    "name": "lugia",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 250,
+    "name": "ho-oh",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 251,
+    "name": "celebi",
+    "generationId": 2,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 252,
+    "name": "treecko",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 253,
+    "name": "grovyle",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 252,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 254,
+    "name": "sceptile",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 253,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 255,
+    "name": "torchic",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 256,
+    "name": "combusken",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 255,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 257,
+    "name": "blaziken",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 256,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 258,
+    "name": "mudkip",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 259,
+    "name": "marshtomp",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 258,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 260,
+    "name": "swampert",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 259,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 261,
+    "name": "poochyena",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 262,
+    "name": "mightyena",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 261,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 263,
+    "name": "zigzagoon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 264,
+    "name": "linoone",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 263,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 265,
+    "name": "wurmple",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 266,
+    "name": "silcoon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 265,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 267,
+    "name": "beautifly",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 266,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 268,
+    "name": "cascoon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 265,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 269,
+    "name": "dustox",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 268,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 270,
+    "name": "lotad",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 271,
+    "name": "lombre",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 270,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 272,
+    "name": "ludicolo",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 271,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 273,
+    "name": "seedot",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 274,
+    "name": "nuzleaf",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 273,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 275,
+    "name": "shiftry",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 274,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 276,
+    "name": "taillow",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 277,
+    "name": "swellow",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 276,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 278,
+    "name": "wingull",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 279,
+    "name": "pelipper",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 278,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 280,
+    "name": "ralts",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 281,
+    "name": "kirlia",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 280,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 282,
+    "name": "gardevoir",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 281,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 283,
+    "name": "surskit",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 284,
+    "name": "masquerain",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 283,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 285,
+    "name": "shroomish",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 286,
+    "name": "breloom",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 285,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 287,
+    "name": "slakoth",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 288,
+    "name": "vigoroth",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 287,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 289,
+    "name": "slaking",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 288,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 290,
+    "name": "nincada",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 291,
+    "name": "ninjask",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 290,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 292,
+    "name": "shedinja",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 290,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 293,
+    "name": "whismur",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 294,
+    "name": "loudred",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 293,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 295,
+    "name": "exploud",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 294,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 296,
+    "name": "makuhita",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 297,
+    "name": "hariyama",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 296,
+    "genderRate": 2,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 298,
+    "name": "azurill",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 150,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 299,
+    "name": "nosepass",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 300,
+    "name": "skitty",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 301,
+    "name": "delcatty",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 300,
+    "genderRate": 6,
+    "captureRate": 60,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 302,
+    "name": "sableye",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 303,
+    "name": "mawile",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 304,
+    "name": "aron",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 305,
+    "name": "lairon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 304,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 306,
+    "name": "aggron",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 305,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 307,
+    "name": "meditite",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 308,
+    "name": "medicham",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 307,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 309,
+    "name": "electrike",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 310,
+    "name": "manectric",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 309,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 311,
+    "name": "plusle",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 312,
+    "name": "minun",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 313,
+    "name": "volbeat",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 150,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 314,
+    "name": "illumise",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 150,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 315,
+    "name": "roselia",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 406,
+    "genderRate": 4,
+    "captureRate": 150,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 316,
+    "name": "gulpin",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 317,
+    "name": "swalot",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 316,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 318,
+    "name": "carvanha",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 319,
+    "name": "sharpedo",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 318,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 320,
+    "name": "wailmer",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 125,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 321,
+    "name": "wailord",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 320,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 322,
+    "name": "numel",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 323,
+    "name": "camerupt",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 322,
+    "genderRate": 4,
+    "captureRate": 150,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 324,
+    "name": "torkoal",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 325,
+    "name": "spoink",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 326,
+    "name": "grumpig",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 325,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 327,
+    "name": "spinda",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 328,
+    "name": "trapinch",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 329,
+    "name": "vibrava",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 328,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 330,
+    "name": "flygon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 329,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 331,
+    "name": "cacnea",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 332,
+    "name": "cacturne",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 331,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 333,
+    "name": "swablu",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 334,
+    "name": "altaria",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 333,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 335,
+    "name": "zangoose",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 336,
+    "name": "seviper",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 337,
+    "name": "lunatone",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 338,
+    "name": "solrock",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 339,
+    "name": "barboach",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 340,
+    "name": "whiscash",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 339,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 341,
+    "name": "corphish",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 205,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 342,
+    "name": "crawdaunt",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 341,
+    "genderRate": 4,
+    "captureRate": 155,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 343,
+    "name": "baltoy",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 344,
+    "name": "claydol",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 343,
+    "genderRate": -1,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 345,
+    "name": "lileep",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 346,
+    "name": "cradily",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 345,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 347,
+    "name": "anorith",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 348,
+    "name": "armaldo",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 347,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 349,
+    "name": "feebas",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 350,
+    "name": "milotic",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 349,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 351,
+    "name": "castform",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 352,
+    "name": "kecleon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 353,
+    "name": "shuppet",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 354,
+    "name": "banette",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 353,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 355,
+    "name": "duskull",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 356,
+    "name": "dusclops",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 355,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 357,
+    "name": "tropius",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 358,
+    "name": "chimecho",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 433,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 359,
+    "name": "absol",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 360,
+    "name": "wynaut",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 125,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 361,
+    "name": "snorunt",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 362,
+    "name": "glalie",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 361,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 363,
+    "name": "spheal",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 364,
+    "name": "sealeo",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 363,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 365,
+    "name": "walrein",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 364,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 366,
+    "name": "clamperl",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 367,
+    "name": "huntail",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 366,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 368,
+    "name": "gorebyss",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 366,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 369,
+    "name": "relicanth",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 25,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 370,
+    "name": "luvdisc",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 371,
+    "name": "bagon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 372,
+    "name": "shelgon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 371,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 373,
+    "name": "salamence",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 372,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 374,
+    "name": "beldum",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 375,
+    "name": "metang",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 374,
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 376,
+    "name": "metagross",
+    "generationId": 3,
+    "evolvesFromSpeciesId": 375,
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 377,
+    "name": "regirock",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 378,
+    "name": "regice",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 379,
+    "name": "registeel",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 380,
+    "name": "latias",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 381,
+    "name": "latios",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 382,
+    "name": "kyogre",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 383,
+    "name": "groudon",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 384,
+    "name": "rayquaza",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 385,
+    "name": "jirachi",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 386,
+    "name": "deoxys",
+    "generationId": 3,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 387,
+    "name": "turtwig",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 388,
+    "name": "grotle",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 387,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 389,
+    "name": "torterra",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 388,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 390,
+    "name": "chimchar",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 391,
+    "name": "monferno",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 390,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 392,
+    "name": "infernape",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 391,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 393,
+    "name": "piplup",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 394,
+    "name": "prinplup",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 393,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 395,
+    "name": "empoleon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 394,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 396,
+    "name": "starly",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 397,
+    "name": "staravia",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 396,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 398,
+    "name": "staraptor",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 397,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 399,
+    "name": "bidoof",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 400,
+    "name": "bibarel",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 399,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 401,
+    "name": "kricketot",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 402,
+    "name": "kricketune",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 401,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 403,
+    "name": "shinx",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 404,
+    "name": "luxio",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 403,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 405,
+    "name": "luxray",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 404,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 406,
+    "name": "budew",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 407,
+    "name": "roserade",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 315,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 408,
+    "name": "cranidos",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 409,
+    "name": "rampardos",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 408,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 410,
+    "name": "shieldon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 411,
+    "name": "bastiodon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 410,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 412,
+    "name": "burmy",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 413,
+    "name": "wormadam",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 412,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 414,
+    "name": "mothim",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 412,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 415,
+    "name": "combee",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 416,
+    "name": "vespiquen",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 415,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 417,
+    "name": "pachirisu",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 418,
+    "name": "buizel",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 419,
+    "name": "floatzel",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 418,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 420,
+    "name": "cherubi",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 421,
+    "name": "cherrim",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 420,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 422,
+    "name": "shellos",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 423,
+    "name": "gastrodon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 422,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 424,
+    "name": "ambipom",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 190,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 425,
+    "name": "drifloon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 125,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 426,
+    "name": "drifblim",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 425,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 427,
+    "name": "buneary",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 428,
+    "name": "lopunny",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 427,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 429,
+    "name": "mismagius",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 200,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 430,
+    "name": "honchkrow",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 198,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 431,
+    "name": "glameow",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 432,
+    "name": "purugly",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 431,
+    "genderRate": 6,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 433,
+    "name": "chingling",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 434,
+    "name": "stunky",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 435,
+    "name": "skuntank",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 434,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 436,
+    "name": "bronzor",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 437,
+    "name": "bronzong",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 436,
+    "genderRate": -1,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 438,
+    "name": "bonsly",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 439,
+    "name": "mime-jr",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 145,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 440,
+    "name": "happiny",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 130,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 441,
+    "name": "chatot",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 442,
+    "name": "spiritomb",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 100,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 443,
+    "name": "gible",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 444,
+    "name": "gabite",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 443,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 445,
+    "name": "garchomp",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 444,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 446,
+    "name": "munchlax",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 50,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 447,
+    "name": "riolu",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 448,
+    "name": "lucario",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 447,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 449,
+    "name": "hippopotas",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 450,
+    "name": "hippowdon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 449,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 451,
+    "name": "skorupi",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 452,
+    "name": "drapion",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 451,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 453,
+    "name": "croagunk",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 454,
+    "name": "toxicroak",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 453,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 455,
+    "name": "carnivine",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 456,
+    "name": "finneon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 457,
+    "name": "lumineon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 456,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 458,
+    "name": "mantyke",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 459,
+    "name": "snover",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 460,
+    "name": "abomasnow",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 459,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 461,
+    "name": "weavile",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 215,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 462,
+    "name": "magnezone",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 82,
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 463,
+    "name": "lickilicky",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 108,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 464,
+    "name": "rhyperior",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 112,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 465,
+    "name": "tangrowth",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 114,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 466,
+    "name": "electivire",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 125,
+    "genderRate": 2,
+    "captureRate": 30,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 467,
+    "name": "magmortar",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 126,
+    "genderRate": 2,
+    "captureRate": 30,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 468,
+    "name": "togekiss",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 176,
+    "genderRate": 1,
+    "captureRate": 30,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 469,
+    "name": "yanmega",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 193,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 470,
+    "name": "leafeon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 471,
+    "name": "glaceon",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 472,
+    "name": "gliscor",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 207,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 473,
+    "name": "mamoswine",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 221,
+    "genderRate": 4,
+    "captureRate": 50,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 474,
+    "name": "porygon-z",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 233,
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 475,
+    "name": "gallade",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 281,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 476,
+    "name": "probopass",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 299,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 477,
+    "name": "dusknoir",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 356,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 478,
+    "name": "froslass",
+    "generationId": 4,
+    "evolvesFromSpeciesId": 361,
+    "genderRate": 8,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 479,
+    "name": "rotom",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 480,
+    "name": "uxie",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 481,
+    "name": "mesprit",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 482,
+    "name": "azelf",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 483,
+    "name": "dialga",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 484,
+    "name": "palkia",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 485,
+    "name": "heatran",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 3,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 486,
+    "name": "regigigas",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 487,
+    "name": "giratina",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 488,
+    "name": "cresselia",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 489,
+    "name": "phione",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 490,
+    "name": "manaphy",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 491,
+    "name": "darkrai",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 492,
+    "name": "shaymin",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 493,
+    "name": "arceus",
+    "generationId": 4,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 494,
+    "name": "victini",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 495,
+    "name": "snivy",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 496,
+    "name": "servine",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 495,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 497,
+    "name": "serperior",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 496,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 498,
+    "name": "tepig",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 499,
+    "name": "pignite",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 498,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 500,
+    "name": "emboar",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 499,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 501,
+    "name": "oshawott",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 502,
+    "name": "dewott",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 501,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 503,
+    "name": "samurott",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 502,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 504,
+    "name": "patrat",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 505,
+    "name": "watchog",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 504,
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 506,
+    "name": "lillipup",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 507,
+    "name": "herdier",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 506,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 508,
+    "name": "stoutland",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 507,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 509,
+    "name": "purrloin",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 510,
+    "name": "liepard",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 509,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 511,
+    "name": "pansage",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 512,
+    "name": "simisage",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 511,
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 513,
+    "name": "pansear",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 514,
+    "name": "simisear",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 513,
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 515,
+    "name": "panpour",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 516,
+    "name": "simipour",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 515,
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 517,
+    "name": "munna",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 518,
+    "name": "musharna",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 517,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 519,
+    "name": "pidove",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 520,
+    "name": "tranquill",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 519,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 521,
+    "name": "unfezant",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 520,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 522,
+    "name": "blitzle",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 523,
+    "name": "zebstrika",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 522,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 524,
+    "name": "roggenrola",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 525,
+    "name": "boldore",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 524,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 526,
+    "name": "gigalith",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 525,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 527,
+    "name": "woobat",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 528,
+    "name": "swoobat",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 527,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 529,
+    "name": "drilbur",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 530,
+    "name": "excadrill",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 529,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 531,
+    "name": "audino",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 532,
+    "name": "timburr",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 2,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 533,
+    "name": "gurdurr",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 532,
+    "genderRate": 2,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 534,
+    "name": "conkeldurr",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 533,
+    "genderRate": 2,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 535,
+    "name": "tympole",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 536,
+    "name": "palpitoad",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 535,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 537,
+    "name": "seismitoad",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 536,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 538,
+    "name": "throh",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 539,
+    "name": "sawk",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 540,
+    "name": "sewaddle",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 541,
+    "name": "swadloon",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 540,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 542,
+    "name": "leavanny",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 541,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 543,
+    "name": "venipede",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 544,
+    "name": "whirlipede",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 543,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 545,
+    "name": "scolipede",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 544,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 546,
+    "name": "cottonee",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 547,
+    "name": "whimsicott",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 546,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 548,
+    "name": "petilil",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 549,
+    "name": "lilligant",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 548,
+    "genderRate": 8,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 550,
+    "name": "basculin",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 25,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 551,
+    "name": "sandile",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 552,
+    "name": "krokorok",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 551,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 553,
+    "name": "krookodile",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 552,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 554,
+    "name": "darumaka",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 555,
+    "name": "darmanitan",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 554,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 556,
+    "name": "maractus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 557,
+    "name": "dwebble",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 558,
+    "name": "crustle",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 557,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 559,
+    "name": "scraggy",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 560,
+    "name": "scrafty",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 559,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 561,
+    "name": "sigilyph",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 562,
+    "name": "yamask",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 563,
+    "name": "cofagrigus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 562,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 564,
+    "name": "tirtouga",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 565,
+    "name": "carracosta",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 564,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 566,
+    "name": "archen",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 567,
+    "name": "archeops",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 566,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 568,
+    "name": "trubbish",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 569,
+    "name": "garbodor",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 568,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 570,
+    "name": "zorua",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 75,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 571,
+    "name": "zoroark",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 570,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 572,
+    "name": "minccino",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 573,
+    "name": "cinccino",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 572,
+    "genderRate": 6,
+    "captureRate": 60,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 574,
+    "name": "gothita",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 575,
+    "name": "gothorita",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 574,
+    "genderRate": 6,
+    "captureRate": 100,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 576,
+    "name": "gothitelle",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 575,
+    "genderRate": 6,
+    "captureRate": 50,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 577,
+    "name": "solosis",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 578,
+    "name": "duosion",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 577,
+    "genderRate": 4,
+    "captureRate": 100,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 579,
+    "name": "reuniclus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 578,
+    "genderRate": 4,
+    "captureRate": 50,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 580,
+    "name": "ducklett",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 581,
+    "name": "swanna",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 580,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 582,
+    "name": "vanillite",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 583,
+    "name": "vanillish",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 582,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 584,
+    "name": "vanilluxe",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 583,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 585,
+    "name": "deerling",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 586,
+    "name": "sawsbuck",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 585,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 587,
+    "name": "emolga",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 588,
+    "name": "karrablast",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 589,
+    "name": "escavalier",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 588,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 590,
+    "name": "foongus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 591,
+    "name": "amoonguss",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 590,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 592,
+    "name": "frillish",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 593,
+    "name": "jellicent",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 592,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 594,
+    "name": "alomomola",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 595,
+    "name": "joltik",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 596,
+    "name": "galvantula",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 595,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 597,
+    "name": "ferroseed",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 598,
+    "name": "ferrothorn",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 597,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 599,
+    "name": "klink",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 130,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 600,
+    "name": "klang",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 599,
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 601,
+    "name": "klinklang",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 600,
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 602,
+    "name": "tynamo",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 603,
+    "name": "eelektrik",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 602,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 604,
+    "name": "eelektross",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 603,
+    "genderRate": 4,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 605,
+    "name": "elgyem",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 606,
+    "name": "beheeyem",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 605,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 607,
+    "name": "litwick",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 608,
+    "name": "lampent",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 607,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 609,
+    "name": "chandelure",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 608,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 610,
+    "name": "axew",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 611,
+    "name": "fraxure",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 610,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 612,
+    "name": "haxorus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 611,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 613,
+    "name": "cubchoo",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 614,
+    "name": "beartic",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 613,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 615,
+    "name": "cryogonal",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 616,
+    "name": "shelmet",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 617,
+    "name": "accelgor",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 616,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 618,
+    "name": "stunfisk",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 619,
+    "name": "mienfoo",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 620,
+    "name": "mienshao",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 619,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 621,
+    "name": "druddigon",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 622,
+    "name": "golett",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 190,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 623,
+    "name": "golurk",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 622,
+    "genderRate": -1,
+    "captureRate": 90,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 624,
+    "name": "pawniard",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 625,
+    "name": "bisharp",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 624,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 626,
+    "name": "bouffalant",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 627,
+    "name": "rufflet",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 628,
+    "name": "braviary",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 627,
+    "genderRate": 0,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 629,
+    "name": "vullaby",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 630,
+    "name": "mandibuzz",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 629,
+    "genderRate": 8,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 631,
+    "name": "heatmor",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 632,
+    "name": "durant",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 633,
+    "name": "deino",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 634,
+    "name": "zweilous",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 633,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 635,
+    "name": "hydreigon",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 634,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 636,
+    "name": "larvesta",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 637,
+    "name": "volcarona",
+    "generationId": 5,
+    "evolvesFromSpeciesId": 636,
+    "genderRate": 4,
+    "captureRate": 15,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 638,
+    "name": "cobalion",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 639,
+    "name": "terrakion",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 640,
+    "name": "virizion",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 641,
+    "name": "tornadus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 642,
+    "name": "thundurus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 643,
+    "name": "reshiram",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 644,
+    "name": "zekrom",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 645,
+    "name": "landorus",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 646,
+    "name": "kyurem",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 647,
+    "name": "keldeo",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 80,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 648,
+    "name": "meloetta",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 649,
+    "name": "genesect",
+    "generationId": 5,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 650,
+    "name": "chespin",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 651,
+    "name": "quilladin",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 650,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 652,
+    "name": "chesnaught",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 651,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 653,
+    "name": "fennekin",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 654,
+    "name": "braixen",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 653,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 655,
+    "name": "delphox",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 654,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 656,
+    "name": "froakie",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 657,
+    "name": "frogadier",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 656,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 658,
+    "name": "greninja",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 657,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 659,
+    "name": "bunnelby",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 660,
+    "name": "diggersby",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 659,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 661,
+    "name": "fletchling",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 662,
+    "name": "fletchinder",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 661,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 663,
+    "name": "talonflame",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 662,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 664,
+    "name": "scatterbug",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 665,
+    "name": "spewpa",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 664,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 666,
+    "name": "vivillon",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 665,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 667,
+    "name": "litleo",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 7,
+    "captureRate": 220,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 668,
+    "name": "pyroar",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 667,
+    "genderRate": 7,
+    "captureRate": 65,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 669,
+    "name": "flabebe",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 670,
+    "name": "floette",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 669,
+    "genderRate": 8,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 671,
+    "name": "florges",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 670,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 672,
+    "name": "skiddo",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 673,
+    "name": "gogoat",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 672,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 674,
+    "name": "pancham",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 220,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 675,
+    "name": "pangoro",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 674,
+    "genderRate": 4,
+    "captureRate": 65,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 676,
+    "name": "furfrou",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 160,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 677,
+    "name": "espurr",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 678,
+    "name": "meowstic",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 677,
+    "genderRate": 0,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 1
+  },
+  {
+    "pokemonId": 679,
+    "name": "honedge",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 680,
+    "name": "doublade",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 679,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 681,
+    "name": "aegislash",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 680,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 682,
+    "name": "spritzee",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 683,
+    "name": "aromatisse",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 682,
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 684,
+    "name": "swirlix",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 685,
+    "name": "slurpuff",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 684,
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 686,
+    "name": "inkay",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 687,
+    "name": "malamar",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 686,
+    "genderRate": 4,
+    "captureRate": 80,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 688,
+    "name": "binacle",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 689,
+    "name": "barbaracle",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 688,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 690,
+    "name": "skrelp",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 691,
+    "name": "dragalge",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 690,
+    "genderRate": 4,
+    "captureRate": 55,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 692,
+    "name": "clauncher",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 693,
+    "name": "clawitzer",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 692,
+    "genderRate": 4,
+    "captureRate": 55,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 694,
+    "name": "helioptile",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 695,
+    "name": "heliolisk",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 694,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 696,
+    "name": "tyrunt",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 697,
+    "name": "tyrantrum",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 696,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 698,
+    "name": "amaura",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 699,
+    "name": "aurorus",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 698,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 700,
+    "name": "sylveon",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 133,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 701,
+    "name": "hawlucha",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 100,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 702,
+    "name": "dedenne",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 703,
+    "name": "carbink",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 704,
+    "name": "goomy",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 705,
+    "name": "sliggoo",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 704,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 706,
+    "name": "goodra",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 705,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 707,
+    "name": "klefki",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 708,
+    "name": "phantump",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 709,
+    "name": "trevenant",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 708,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 710,
+    "name": "pumpkaboo",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 711,
+    "name": "gourgeist",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 710,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 712,
+    "name": "bergmite",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 713,
+    "name": "avalugg",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 712,
+    "genderRate": 4,
+    "captureRate": 55,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 714,
+    "name": "noibat",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 715,
+    "name": "noivern",
+    "generationId": 6,
+    "evolvesFromSpeciesId": 714,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 716,
+    "name": "xerneas",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 717,
+    "name": "yveltal",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 718,
+    "name": "zygarde",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 719,
+    "name": "diancie",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 720,
+    "name": "hoopa",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 721,
+    "name": "volcanion",
+    "generationId": 6,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 722,
+    "name": "rowlet",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 723,
+    "name": "dartrix",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 722,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 724,
+    "name": "decidueye",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 723,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 725,
+    "name": "litten",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 726,
+    "name": "torracat",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 725,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 727,
+    "name": "incineroar",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 726,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 728,
+    "name": "popplio",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 729,
+    "name": "brionne",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 728,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 730,
+    "name": "primarina",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 729,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 731,
+    "name": "pikipek",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 732,
+    "name": "trumbeak",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 731,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 733,
+    "name": "toucannon",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 732,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 734,
+    "name": "yungoos",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 735,
+    "name": "gumshoos",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 734,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 736,
+    "name": "grubbin",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 737,
+    "name": "charjabug",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 736,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 738,
+    "name": "vikavolt",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 737,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 739,
+    "name": "crabrawler",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 225,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 740,
+    "name": "crabominable",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 739,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 741,
+    "name": "oricorio",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 742,
+    "name": "cutiefly",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 743,
+    "name": "ribombee",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 742,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 744,
+    "name": "rockruff",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 745,
+    "name": "lycanroc",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 744,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 746,
+    "name": "wishiwashi",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 747,
+    "name": "mareanie",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 748,
+    "name": "toxapex",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 747,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 749,
+    "name": "mudbray",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 750,
+    "name": "mudsdale",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 749,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 751,
+    "name": "dewpider",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 200,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 752,
+    "name": "araquanid",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 751,
+    "genderRate": 4,
+    "captureRate": 100,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 753,
+    "name": "fomantis",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 754,
+    "name": "lurantis",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 753,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 755,
+    "name": "morelull",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 756,
+    "name": "shiinotic",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 755,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 757,
+    "name": "salandit",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 758,
+    "name": "salazzle",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 757,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 759,
+    "name": "stufful",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 760,
+    "name": "bewear",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 759,
+    "genderRate": 4,
+    "captureRate": 70,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 761,
+    "name": "bounsweet",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 762,
+    "name": "steenee",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 761,
+    "genderRate": 8,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 763,
+    "name": "tsareena",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 762,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 764,
+    "name": "comfey",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 6,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 765,
+    "name": "oranguru",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 766,
+    "name": "passimian",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 767,
+    "name": "wimpod",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 768,
+    "name": "golisopod",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 767,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 769,
+    "name": "sandygast",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 140,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 770,
+    "name": "palossand",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 769,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 771,
+    "name": "pyukumuku",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 772,
+    "name": "type-null",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 773,
+    "name": "silvally",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 772,
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 774,
+    "name": "minior",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 775,
+    "name": "komala",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 776,
+    "name": "turtonator",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 70,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 777,
+    "name": "togedemaru",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 778,
+    "name": "mimikyu",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 779,
+    "name": "bruxish",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 80,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 780,
+    "name": "drampa",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 70,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 781,
+    "name": "dhelmise",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 25,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 782,
+    "name": "jangmo-o",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 783,
+    "name": "hakamo-o",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 782,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 784,
+    "name": "kommo-o",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 783,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 785,
+    "name": "tapu-koko",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 786,
+    "name": "tapu-lele",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 787,
+    "name": "tapu-bulu",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 788,
+    "name": "tapu-fini",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 789,
+    "name": "cosmog",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 790,
+    "name": "cosmoem",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 789,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 791,
+    "name": "solgaleo",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 790,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 792,
+    "name": "lunala",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 790,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 793,
+    "name": "nihilego",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 794,
+    "name": "buzzwole",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 795,
+    "name": "pheromosa",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 796,
+    "name": "xurkitree",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 797,
+    "name": "celesteela",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 798,
+    "name": "kartana",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 799,
+    "name": "guzzlord",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 800,
+    "name": "necrozma",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 255,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 801,
+    "name": "magearna",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 802,
+    "name": "marshadow",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 803,
+    "name": "poipole",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 804,
+    "name": "naganadel",
+    "generationId": 7,
+    "evolvesFromSpeciesId": 803,
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 805,
+    "name": "stakataka",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 806,
+    "name": "blacephalon",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 30,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 807,
+    "name": "zeraora",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 808,
+    "name": "meltan",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 809,
+    "name": "melmetal",
+    "generationId": 7,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 810,
+    "name": "grookey",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 811,
+    "name": "thwackey",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 810,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 812,
+    "name": "rillaboom",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 811,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 813,
+    "name": "scorbunny",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 814,
+    "name": "raboot",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 813,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 815,
+    "name": "cinderace",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 814,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 816,
+    "name": "sobble",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 817,
+    "name": "drizzile",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 816,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 818,
+    "name": "inteleon",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 817,
+    "genderRate": 1,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 819,
+    "name": "skwovet",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 820,
+    "name": "greedent",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 819,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 821,
+    "name": "rookidee",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 822,
+    "name": "corvisquire",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 821,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 823,
+    "name": "corviknight",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 822,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 824,
+    "name": "blipbug",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 825,
+    "name": "dottler",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 824,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 826,
+    "name": "orbeetle",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 825,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 827,
+    "name": "nickit",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 828,
+    "name": "thievul",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 827,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 829,
+    "name": "gossifleur",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 830,
+    "name": "eldegoss",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 829,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 831,
+    "name": "wooloo",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 832,
+    "name": "dubwool",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 831,
+    "genderRate": 4,
+    "captureRate": 127,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 833,
+    "name": "chewtle",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 834,
+    "name": "drednaw",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 833,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 835,
+    "name": "yamper",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 836,
+    "name": "boltund",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 835,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 837,
+    "name": "rolycoly",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 838,
+    "name": "carkol",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 837,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 839,
+    "name": "coalossal",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 838,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 840,
+    "name": "applin",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 841,
+    "name": "flapple",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 840,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 842,
+    "name": "appletun",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 840,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 843,
+    "name": "silicobra",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 844,
+    "name": "sandaconda",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 843,
+    "genderRate": 4,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 845,
+    "name": "cramorant",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 846,
+    "name": "arrokuda",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 847,
+    "name": "barraskewda",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 846,
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 848,
+    "name": "toxel",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 849,
+    "name": "toxtricity",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 848,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 850,
+    "name": "sizzlipede",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 851,
+    "name": "centiskorch",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 850,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 852,
+    "name": "clobbopus",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 853,
+    "name": "grapploct",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 852,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 854,
+    "name": "sinistea",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 855,
+    "name": "polteageist",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 854,
+    "genderRate": -1,
+    "captureRate": 60,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 856,
+    "name": "hatenna",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 235,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 857,
+    "name": "hattrem",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 856,
+    "genderRate": 8,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 858,
+    "name": "hatterene",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 857,
+    "genderRate": 8,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 859,
+    "name": "impidimp",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 255,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 860,
+    "name": "morgrem",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 859,
+    "genderRate": 0,
+    "captureRate": 120,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 861,
+    "name": "grimmsnarl",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 860,
+    "genderRate": 0,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 862,
+    "name": "obstagoon",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 264,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 15,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 863,
+    "name": "perrserker",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 52,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 864,
+    "name": "cursola",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 222,
+    "genderRate": 6,
+    "captureRate": 30,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 865,
+    "name": "sirfetchd",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 83,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 866,
+    "name": "mr-rime",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 122,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 867,
+    "name": "runerigus",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 562,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 868,
+    "name": "milcery",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 8,
+    "captureRate": 200,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 869,
+    "name": "alcremie",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 868,
+    "genderRate": 8,
+    "captureRate": 100,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 870,
+    "name": "falinks",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 871,
+    "name": "pincurchin",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 872,
+    "name": "snom",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 873,
+    "name": "frosmoth",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 872,
+    "genderRate": 4,
+    "captureRate": 75,
+    "hatchCounter": 20,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 874,
+    "name": "stonjourner",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 875,
+    "name": "eiscue",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 60,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 876,
+    "name": "indeedee",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 0,
+    "captureRate": 30,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 877,
+    "name": "morpeko",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 180,
+    "hatchCounter": 10,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 878,
+    "name": "cufant",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 190,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 879,
+    "name": "copperajah",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 878,
+    "genderRate": 4,
+    "captureRate": 90,
+    "hatchCounter": 25,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 880,
+    "name": "dracozolt",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 881,
+    "name": "arctozolt",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 882,
+    "name": "dracovish",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 883,
+    "name": "arctovish",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 45,
+    "hatchCounter": 35,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 884,
+    "name": "duraludon",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 30,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 885,
+    "name": "dreepy",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 886,
+    "name": "drakloak",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 885,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 887,
+    "name": "dragapult",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 886,
+    "genderRate": 4,
+    "captureRate": 45,
+    "hatchCounter": 40,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 888,
+    "name": "zacian",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 10,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 889,
+    "name": "zamazenta",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 10,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 890,
+    "name": "eternatus",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 255,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 891,
+    "name": "kubfu",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": 1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 892,
+    "name": "urshifu",
+    "generationId": 8,
+    "evolvesFromSpeciesId": 891,
+    "genderRate": 1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 893,
+    "name": "zarude",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 894,
+    "name": "regieleki",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 895,
+    "name": "regidrago",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 896,
+    "name": "glastrier",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 897,
+    "name": "spectrier",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  },
+  {
+    "pokemonId": 898,
+    "name": "calyrex",
+    "generationId": 8,
+    "evolvesFromSpeciesId": "",
+    "genderRate": -1,
+    "captureRate": 3,
+    "hatchCounter": 120,
+    "hasGenderDifferences": 0
+  }
+]
