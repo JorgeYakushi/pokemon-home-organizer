@@ -7,21 +7,22 @@ import styles from "../../styles/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-import spritespecies from "../../mocks/specieswithsprites.json";
+import spritesSpecies from "../../mocks/specieswithsprites.json";
+
+interface IBoxItem {
+  id: number;
+  box_id: number;
+  spriteUrl: string;
+  boxPosition: number;
+  isCaught: boolean;
+}
 
 const BoxList: NextPage = () => {
   const [currentPage, setCurrentPage] = useState<number>(1);
   const pageSize: number = 30;
   const totalPages: number = Math.ceil(boxes.length / pageSize);
   const [box, setBox] = useState<IBox[]>([]);
-
-  useEffect(() => {
-    const paginateBox = () => {
-      setBox(boxes.slice((currentPage - 1) * pageSize, currentPage * pageSize));
-    };
-
-    paginateBox();
-  }, [currentPage]);
+  const [boxItems, setBoxItems] = useState<IBoxItem[]>([]);
 
   const prevPage = () => {
     if (currentPage > 1) {
