@@ -4,7 +4,9 @@ import styles from "../../styles/table.module.scss";
 import Image from "next/image";
 import Select, { createFilter } from "react-select";
 import spritesSpecies from "../../mocks/specieswithsprites.json";
-
+import emptyBox from "../../mocks/empty-box.json";
+import { useRouter } from "next/router";
+import Link from "next/link";
 interface IBoxItem {
   id: number | null;
   box_id: number;
@@ -14,29 +16,15 @@ interface IBoxItem {
 }
 
 const Box: NextPage = () => {
-  const [boxItems, setBoxItems] = useState<IBoxItem[]>(
-    Array(30)
-      .fill({
-        id: null,
-        box_id: 1,
-        spriteUrl: "",
-        boxPosition: 1,
-        isCaught: false,
-      })
-      .map(
-        (item, index) =>
-          (item = {
-            id: null,
-            box_id: 1,
-            spriteUrl: "",
-            boxPosition: index + 1,
-            isCaught: false,
-          })
-      )
-  );
+  const [boxItems, setBoxItems] = useState<IBoxItem[]>(emptyBox);
+  const router = useRouter();
+  const [currentBox, setCurrentBox] = useState(0);
   const [dropdownIndex, setDropdownIndex] = useState<number | null>(null);
   const [boxIndex, setBoxIndex] = useState<number>(0);
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (!router.isReady) return;
+    setCurrentBox(parseInt(router.query["boxId"] as string));
+  }, [router.isReady, router.query]);
   const addToBoxItem = () => {
     let tempBoxItems: IBoxItem[] = [...boxItems];
     tempBoxItems[boxIndex].spriteUrl =
@@ -52,7 +40,7 @@ const Box: NextPage = () => {
       case 2:
         let tempBoxItems: IBoxItem[] = [...boxItems];
         if (tempBoxItems[boxIndex].id) {
-          tempBoxItems[boxIndex].isCaught = true;
+          tempBoxItems[boxIndex].isCaught = !tempBoxItems[boxIndex].isCaught;
           setBoxItems(tempBoxItems);
         }
         break;
@@ -64,42 +52,71 @@ const Box: NextPage = () => {
     <div className="container">
       <div className={styles.table}>
         <div className={styles.table__head}>
-          <div className={styles["page-name"]}></div>
+          <div>
+            {currentBox !== 1 && (
+              <Link href={`/box/${currentBox - 1}`} passHref>
+                <a>
+                  <Image
+                    src="/icons/chevron-left.svg"
+                    alt="left-arrow"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              </Link>
+            )}
+          </div>
+          <div className={styles["page-name"]}>{`Box ${currentBox}`}</div>
+          <div>
+            {currentBox !== 67 && (
+              <Link href={`/box/${currentBox + 1}`} passHref>
+                <a>
+                  <Image
+                    src="/icons/chevron-right.svg"
+                    alt="left-arrow"
+                    width={30}
+                    height={30}
+                  />
+                </a>
+              </Link>
+            )}
+          </div>
         </div>
+
         <div className={styles.table__body}>
-          {boxItems.map((pokemon, index) => (
-            <div
-              className={styles.box}
-              key={index}
-              onClick={(e) => {
-                handleClick(e, index);
-              }}
-            >
-              {pokemon.id ? (
-                <div className={styles.item}>
-                  <Image
-                    src={`/sprites/${pokemon.spriteUrl}`}
-                    alt="no pokemon"
-                    height={50}
-                    width={50}
-                    className={!pokemon.isCaught ? styles["not-caught"] : ""}
-                  />
+          {boxItems
+            .slice((currentBox - 1) * 30, currentBox * 30)
+            .map((pokemon, index) => (
+              <div
+                className={styles.box}
+                key={index}
+                onClick={(e) => {
+                  handleClick(e, index);
+                }}
+              >
+                <div
+                  className={[
+                    styles.item,
+                    pokemon.boxPosition === boxIndex + 1
+                      ? styles["item--selected"]
+                      : "asd",
+                    pokemon.id ? styles["item--not-empty"] : null,
+                  ].join(" ")}
+                >
+                  {pokemon.id ? (
+                    <Image
+                      src={`/sprites/${pokemon.spriteUrl}`}
+                      alt="no pokemon"
+                      height={50}
+                      width={50}
+                      className={!pokemon.isCaught ? styles["not-caught"] : ""}
+                    />
+                  ) : (
+                    <div style={{ height: "55px", width: "55px" }}></div>
+                  )}
                 </div>
-              ) : (
-                <div>
-                  <Image
-                    src="/icons/pokeball.svg"
-                    alt="no pokemon"
-                    height={50}
-                    width={50}
-                    className={
-                      index === boxIndex ? styles["item--selected"] : ""
-                    }
-                  />
-                </div>
-              )}
-            </div>
-          ))}
+              </div>
+            ))}
         </div>
       </div>
       <div className={styles.info}>

@@ -10,24 +10,26 @@
   }
   .item {
     position: relative;
-    &::after {
-      content: "";
-      position: absolute;
-      width: 150%;
-      height: 150%;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      background: var(--circle-shadow);
-      border-radius: 200px;
-      z-index: 0;
-    }
 
     > span {
       z-index: 2;
     }
     &--selected {
       border: 1px solid red !important;
+    }
+    &--not-empty {
+      &::after {
+        content: "";
+        position: absolute;
+        width: 150%;
+        height: 150%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background: var(--circle-shadow);
+        border-radius: 200px;
+        z-index: 0;
+      }
     }
     .not-caught {
       filter: gray; /* IE6-9 */
