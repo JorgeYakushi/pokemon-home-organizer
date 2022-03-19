@@ -7,8 +7,10 @@ import spritesSpecies from "../../mocks/specieswithsprites.json";
 import emptyBox from "../../mocks/empty-box.json";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { IPokemon } from "../../common/interfaces/pokemon.interface";
+import { Guid } from "../../common/utils/Guid";
 interface IBoxItem {
-  id: number | null;
+  id: string;
   box_id: number;
   spriteUrl: string;
   boxPosition: number;
@@ -16,20 +18,52 @@ interface IBoxItem {
 }
 
 const Box: NextPage = () => {
+  //list of user pokemons
   const [boxItems, setBoxItems] = useState<IBoxItem[]>(emptyBox);
+
+  //for navigation
   const router = useRouter();
+  // 1 to 68, selected box
   const [currentBox, setCurrentBox] = useState(0);
-  const [dropdownIndex, setDropdownIndex] = useState<number | null>(null);
+  // 1 to 30, click/focus position inside box
   const [boxIndex, setBoxIndex] = useState<number>(0);
+
+  //details
+  const detailMap: Map<string, IPokemon> = new Map();
+  detailMap.set("TESTGUID", {
+    speciesId: 7,
+    isShiny: false,
+    isCaught: true,
+    formId: 1,
+    gender: 0,
+  });
+  const [arrChanges, setArrChanges] = useState<IPokemon[]>([]);
+  const [dropdownIndex, setDropdownIndex] = useState<number | null>(null);
+
   useEffect(() => {
     if (!router.isReady) return;
     setCurrentBox(parseInt(router.query["boxId"] as string));
   }, [router.isReady, router.query]);
   const addToBoxItem = () => {
     let tempBoxItems: IBoxItem[] = [...boxItems];
-    tempBoxItems[boxIndex].spriteUrl =
-      spritesSpecies[dropdownIndex!].forms[0].sprite;
-    tempBoxItems[boxIndex].id = spritesSpecies[dropdownIndex!].pokemonId;
+    let index = (currentBox - 1) * 30 + boxIndex;
+    let selectedPokemon = spritesSpecies[dropdownIndex!];
+    let tempPokemon = tempBoxItems[index];
+    tempPokemon.spriteUrl = selectedPokemon.forms[0].sprite;
+    tempPokemon.id =
+      tempBoxItems[index].id === "" ? Guid.newGuid() : tempBoxItems[index].id;
+    let newPokemon: IPokemon = {
+      speciesId: selectedPokemon.pokemonId,
+      isShiny: false,
+      isCaught: false,
+      formId: 1,
+      gender: 0,
+    };
+    detailMap.set(tempBoxItems[index].id, newPokemon);
+
+    arrChanges.push(newPokemon);
+
+    setArrChanges((arrChanges) => [...arrChanges, newPokemon]);
     setBoxItems(tempBoxItems);
   };
   const handleClick = (e: any, index: number) => {
@@ -47,6 +81,11 @@ const Box: NextPage = () => {
       default:
         return;
     }
+  };
+
+  const onSave = () => {
+    console.log(boxItems);
+    console.log(arrChanges);
   };
   return (
     <div className="container">
@@ -132,12 +171,14 @@ const Box: NextPage = () => {
         />
         {dropdownIndex !== null ? (
           <img
+            onClick={addToBoxItem}
             src={`/sprites/${spritesSpecies[dropdownIndex!].forms[0].sprite}`}
             alt=""
           />
         ) : null}
-
-        <button onClick={addToBoxItem}>ADD TO BOXX</button>
+        <button onClick={onSave}>SAVE</button>
+        <div className="">{boxItems[0].id}</div>
+        <div className="">{detailMap.get(boxItems[0].id)?.gender}</div>
       </div>
     </div>
   );
