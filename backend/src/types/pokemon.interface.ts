@@ -8,6 +8,7 @@ interface IPokemon {
 }
 
 export interface IPokemonData extends Document {
+  userGuid: string;
   pokemonGuid: string;
   pokemonData: IPokemon;
 }

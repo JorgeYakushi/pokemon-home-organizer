@@ -10,6 +10,7 @@ const pokemonSchema: Schema = new Schema({
 
 const pokemonDataSchema: Schema = new Schema(
   {
+    userGuid: { type: String, required: true },
     pokemonGuid: {
       type: String,
       required: true,

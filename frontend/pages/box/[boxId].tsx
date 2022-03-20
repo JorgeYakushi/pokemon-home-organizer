@@ -17,7 +17,8 @@ interface IBoxItem {
   isCaught: boolean;
 }
 interface IUpdateData {
-  guid: string;
+  userGuid: string;
+  pokemonGuid: string;
   pokemonData: IPokemon;
 }
 const Box: NextPage = () => {
@@ -62,10 +63,10 @@ const Box: NextPage = () => {
     };
     detailMap.set(tempBoxItems[index].id, newPokemon);
     let tempUpdate: IUpdateData = {
-      guid: tempPokemon.id,
+      userGuid: "aeaman",
+      pokemonGuid: tempPokemon.id,
       pokemonData: newPokemon,
     };
-    arrChanges.push();
 
     setArrChanges((arrChanges) => [...arrChanges, tempUpdate]);
     setBoxItems(tempBoxItems);
@@ -93,17 +94,24 @@ const Box: NextPage = () => {
     let temparr = arrChanges
       .reverse()
       .filter(
-        (c, index, self) => self.findIndex((t) => c.guid === t.guid) === index
+        (c, index, self) =>
+          self.findIndex((t) => c.pokemonGuid === t.pokemonGuid) === index
       );
+    let body = { pokemonData: temparr, userGuid: "aeaman", boxItems };
 
-    console.log(boxItems);
-    let body = { userGuid: "aeaman", boxItems };
     const requestOptions = {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     };
-    fetch(`${process.env.BACKEND_API}/boxes/upd`, requestOptions)
+
+    fetch(`${process.env.BACKEND_API}/boxes/update`, requestOptions)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
+  };
+
+  const onLoad = () => {
+    fetch(`${process.env.BACKEND_API}/boxes?userGuid=aeaman`)
       .then((response) => response.json())
       .then((data) => console.log(data));
   };
@@ -309,6 +317,7 @@ const Box: NextPage = () => {
             ))
           : null}
         <button onClick={onSave}>SAVE</button>
+        <button onClick={onLoad}>LOAD</button>
         <div className="">{boxItems[0].id}</div>
         <div className="">{detailMap.get(boxItems[0].id)?.gender}</div>
       </div>
