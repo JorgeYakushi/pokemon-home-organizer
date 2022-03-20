@@ -1,18 +1,26 @@
 import { model, Schema } from "mongoose";
-import { IBoxItem } from "@/types/box.interface";
+import { IBoxItems } from "@/types/box-items.interface";
 
-const boxItemSchema: Schema = new Schema(
+const boxItemSubSchema: Schema = new Schema({
+  pokemonGuid: { type: String, required: false },
+  box_id: { type: Number, required: false },
+  spriteUrl: { type: String, required: false },
+  boxPosition: { type: Number, required: false },
+  isCaught: { type: Boolean, required: false },
+});
+
+const boxItemsSchema: Schema = new Schema(
   {
-    boxNumber: {
-      type: Number,
+    userGuid: {
+      type: String,
       required: true,
     },
-    boxLocation: {
-      type: Number,
+    boxItems: {
+      type: [boxItemSubSchema],
       required: true,
     },
   },
   { timestamps: true }
 );
 
-export default model<IBoxItem>("BoxItem", boxItemSchema);
+export default model<IBoxItems>("BoxItems", boxItemsSchema);

@@ -1,10 +1,10 @@
 import { Router } from "express";
-import { getBoxes, addBox } from "@/controllers/box";
+import { upsertBoxes } from "@/controllers/box";
 
 const router: Router = Router();
 
-router.get("/boxes", getBoxes);
+// router.get("/boxes", getBoxes);
 
-router.post("/add-box", addBox);
-
+// router.post("/add-box", addBox);
+router.put("/boxes/upd", upsertBoxes);
 export default router;

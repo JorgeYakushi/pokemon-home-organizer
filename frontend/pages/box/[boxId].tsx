@@ -18,7 +18,7 @@ interface IBoxItem {
 }
 interface IUpdateData {
   guid: string;
-  pokkemonData: IPokemon;
+  pokemonData: IPokemon;
 }
 const Box: NextPage = () => {
   //list of user pokemons
@@ -56,15 +56,14 @@ const Box: NextPage = () => {
       tempBoxItems[index].id === "" ? Guid.newGuid() : tempBoxItems[index].id;
     let newPokemon: IPokemon = {
       speciesId: selectedPokemon.pokemonId,
-      isShiny: false,
-      isCaught: false,
-      formId: 1,
-      gender: 0,
+      isShiny: isShiny,
+      formId: formId,
+      gender: gender,
     };
     detailMap.set(tempBoxItems[index].id, newPokemon);
     let tempUpdate: IUpdateData = {
       guid: tempPokemon.id,
-      pokkemonData: newPokemon,
+      pokemonData: newPokemon,
     };
     arrChanges.push();
 
@@ -96,6 +95,17 @@ const Box: NextPage = () => {
       .filter(
         (c, index, self) => self.findIndex((t) => c.guid === t.guid) === index
       );
+
+    console.log(boxItems);
+    let body = { userGuid: "aeaman", boxItems };
+    const requestOptions = {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(body),
+    };
+    fetch(`${process.env.BACKEND_API}/boxes/upd`, requestOptions)
+      .then((response) => response.json())
+      .then((data) => console.log(data));
   };
   return (
     <div className="container">
