@@ -7,23 +7,38 @@ import spritesSpecies from "../../mocks/specieswithsprites.json";
 import emptyBox from "../../mocks/empty-box.json";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import { IPokemon } from "../../common/interfaces/pokemon.interface";
+import { IPokemonDetail } from "common/interfaces/pokemon-complete-data.interface";
 import { Guid } from "../../common/utils/Guid";
-interface IBoxItem {
-  id: string;
-  box_id: number;
-  spriteUrl: string;
-  boxPosition: number;
-  isCaught: boolean;
-}
+import {
+  IPokemonCompleteData,
+  IBoxItem,
+} from "common/interfaces/pokemon-complete-data.interface";
+
 interface IUpdateData {
   userGuid: string;
   pokemonGuid: string;
-  pokemonData: IPokemon;
+  pokemonData: IPokemonDetail;
 }
 const Box: NextPage = () => {
-  //list of user pokemons
-  const [boxItems, setBoxItems] = useState<IBoxItem[]>(emptyBox);
+  //get all pokemonn data
+
+  const [pokemonCompleteData, setPokemonCompleteData] =
+    useState<IPokemonCompleteData>();
+  useEffect(() => {
+    fetch(`${process.env.BACKEND_API}/boxes?userGuid=aeaman`)
+      .then((response) => response.json())
+      .then((data) => {
+        console.log(data);
+        if (data.boxes?.boxItems.length > 0) {
+          setPokemonCompleteData(data);
+        } else {
+          setPokemonCompleteData({
+            boxes: { boxItems: emptyBox },
+            pokemonData: [],
+          });
+        }
+      });
+  }, []);
 
   //for navigation
   const router = useRouter();
@@ -33,7 +48,7 @@ const Box: NextPage = () => {
   const [boxIndex, setBoxIndex] = useState<number>(0);
 
   //details
-  const detailMap: Map<string, IPokemon> = new Map();
+  const detailMap: Map<string, IPokemonDetail> = new Map();
 
   const [arrChanges, setArrChanges] = useState<IUpdateData[]>([]);
   const [dropdownIndex, setDropdownIndex] = useState<number | null>(null);
@@ -48,28 +63,32 @@ const Box: NextPage = () => {
     gender: number,
     sprite: string
   ) => {
-    let tempBoxItems: IBoxItem[] = [...boxItems];
+    let tempData: IPokemonCompleteData = { ...pokemonCompleteData! };
+    let tempBoxItems: IBoxItem[] = tempData.boxes.boxItems;
     let index = (currentBox - 1) * 30 + boxIndex;
     let selectedPokemon = spritesSpecies[dropdownIndex!];
     let tempPokemon = tempBoxItems[index];
     tempPokemon.spriteUrl = sprite;
-    tempPokemon.id =
-      tempBoxItems[index].id === "" ? Guid.newGuid() : tempBoxItems[index].id;
-    let newPokemon: IPokemon = {
+    tempPokemon.pokemonGuid =
+      tempBoxItems[index].pokemonGuid === ""
+        ? Guid.newGuid()
+        : tempBoxItems[index].pokemonGuid;
+    let newPokemon: IPokemonDetail = {
       speciesId: selectedPokemon.pokemonId,
       isShiny: isShiny,
       formId: formId,
       gender: gender,
     };
-    detailMap.set(tempBoxItems[index].id, newPokemon);
+    detailMap.set(tempBoxItems[index].pokemonGuid, newPokemon);
     let tempUpdate: IUpdateData = {
       userGuid: "aeaman",
-      pokemonGuid: tempPokemon.id,
+      pokemonGuid: tempPokemon.pokemonGuid,
       pokemonData: newPokemon,
     };
 
     setArrChanges((arrChanges) => [...arrChanges, tempUpdate]);
-    setBoxItems(tempBoxItems);
+    console.log(tempData);
+    setPokemonCompleteData(tempData);
   };
   const handleClick = (e: any, index: number) => {
     switch (e.detail) {
@@ -77,12 +96,13 @@ const Box: NextPage = () => {
         setBoxIndex(index);
         break;
       case 2:
-        let tempBoxItems: IBoxItem[] = [...boxItems];
+        let tempData: IPokemonCompleteData = { ...pokemonCompleteData! };
+        let tempBoxItems: IBoxItem[] = tempData.boxes.boxItems;
         let pokemonIndex = (currentBox - 1) * 30 + boxIndex;
-        if (tempBoxItems[pokemonIndex].id) {
+        if (tempBoxItems[pokemonIndex].pokemonGuid) {
           tempBoxItems[pokemonIndex].isCaught =
             !tempBoxItems[pokemonIndex].isCaught;
-          setBoxItems(tempBoxItems);
+          setPokemonCompleteData(tempData);
         }
         break;
       default:
@@ -97,26 +117,29 @@ const Box: NextPage = () => {
         (c, index, self) =>
           self.findIndex((t) => c.pokemonGuid === t.pokemonGuid) === index
       );
-    let body = { pokemonData: temparr, userGuid: "aeaman", boxItems };
+    let body = {
+      pokemonData: temparr,
+      userGuid: "aeaman",
+      boxItems: pokemonCompleteData?.boxes.boxItems,
+    };
 
     const requestOptions = {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),
     };
-
+    console.log(body);
     fetch(`${process.env.BACKEND_API}/boxes/update`, requestOptions)
       .then((response) => response.json())
       .then((data) => console.log(data));
   };
 
   const onLoad = () => {
-    fetch(`${process.env.BACKEND_API}/boxes?userGuid=aeaman`)
-      .then((response) => response.json())
-      .then((data) => console.log(data));
+    console.log(pokemonCompleteData);
   };
   return (
     <div className="container">
+      <Link href={"/boxes"}>GOTO</Link>
       <div className={styles.table}>
         <div className={styles.table__head}>
           <div>
@@ -151,7 +174,7 @@ const Box: NextPage = () => {
         </div>
 
         <div className={styles.table__body}>
-          {boxItems
+          {pokemonCompleteData?.boxes.boxItems
             .slice((currentBox - 1) * 30, currentBox * 30)
             .map((pokemon, index) => (
               <div
@@ -167,10 +190,10 @@ const Box: NextPage = () => {
                     pokemon.boxPosition === boxIndex + 1
                       ? styles["item--selected"]
                       : "",
-                    pokemon.id ? styles["item--not-empty"] : null,
+                    pokemon.pokemonGuid ? styles["item--not-empty"] : null,
                   ].join(" ")}
                 >
-                  {pokemon.id ? (
+                  {pokemon.pokemonGuid ? (
                     <Image
                       src={`/sprites/${pokemon.spriteUrl}`}
                       alt="no pokemon"
@@ -318,8 +341,6 @@ const Box: NextPage = () => {
           : null}
         <button onClick={onSave}>SAVE</button>
         <button onClick={onLoad}>LOAD</button>
-        <div className="">{boxItems[0].id}</div>
-        <div className="">{detailMap.get(boxItems[0].id)?.gender}</div>
       </div>
     </div>
   );

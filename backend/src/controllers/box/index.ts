@@ -5,9 +5,7 @@ import BoxItems from "@/models/box-item.model";
 import PokemonData from "@/models/pokemon.model";
 const getBoxData = async (req: Request, res: Response): Promise<void> => {
   try {
-    console.log(req.query);
-
-    const boxes: IBoxItems[] = await BoxItems.find(req.query);
+    const boxes: IBoxItems | null = await BoxItems.findOne(req.query);
     const pokemonData: IPokemonData[] = await PokemonData.find();
     res.status(200).json({ boxes, pokemonData });
   } catch (error) {
@@ -18,7 +16,9 @@ const getBoxData = async (req: Request, res: Response): Promise<void> => {
 const upsertBoxes = async (req: Request, res: Response): Promise<void> => {
   try {
     const queryBoxes = { userGuid: req.body.userGuid };
-    const updateBoxes = { $set: req.body.boxItems };
+    const updateBoxes = {
+      $set: { boxItems: req.body.boxItems, userGuid: req.body.userGuid },
+    };
     const options = { upsert: true };
     await BoxItems.updateOne(queryBoxes, updateBoxes, options);
 

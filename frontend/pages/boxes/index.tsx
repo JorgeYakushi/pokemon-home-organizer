@@ -50,11 +50,12 @@ const BoxList: NextPage = () => {
       .then((response) => response.json())
       .then((data) => console.log(data));
   };
+
   return (
     <div className="container">
       <button onClick={getBoxes}>GET BOXES</button>
       <button onClick={addBox}>ADD BOX</button>
-
+      <Link href={"/box/1"}>GO TO 1</Link>
       <div className={styles.table}>
         <div className={styles.table__head}>
           <div>
