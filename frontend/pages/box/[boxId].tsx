@@ -16,7 +16,10 @@ interface IBoxItem {
   boxPosition: number;
   isCaught: boolean;
 }
-
+interface IUpdateData {
+  guid: string;
+  pokkemonData: IPokemon;
+}
 const Box: NextPage = () => {
   //list of user pokemons
   const [boxItems, setBoxItems] = useState<IBoxItem[]>(emptyBox);
@@ -30,26 +33,25 @@ const Box: NextPage = () => {
 
   //details
   const detailMap: Map<string, IPokemon> = new Map();
-  detailMap.set("TESTGUID", {
-    speciesId: 7,
-    isShiny: false,
-    isCaught: true,
-    formId: 1,
-    gender: 0,
-  });
-  const [arrChanges, setArrChanges] = useState<IPokemon[]>([]);
+
+  const [arrChanges, setArrChanges] = useState<IUpdateData[]>([]);
   const [dropdownIndex, setDropdownIndex] = useState<number | null>(null);
 
   useEffect(() => {
     if (!router.isReady) return;
     setCurrentBox(parseInt(router.query["boxId"] as string));
   }, [router.isReady, router.query]);
-  const addToBoxItem = () => {
+  const addToBoxItem = (
+    isShiny: boolean,
+    formId: number,
+    gender: number,
+    sprite: string
+  ) => {
     let tempBoxItems: IBoxItem[] = [...boxItems];
     let index = (currentBox - 1) * 30 + boxIndex;
     let selectedPokemon = spritesSpecies[dropdownIndex!];
     let tempPokemon = tempBoxItems[index];
-    tempPokemon.spriteUrl = selectedPokemon.forms[0].sprite;
+    tempPokemon.spriteUrl = sprite;
     tempPokemon.id =
       tempBoxItems[index].id === "" ? Guid.newGuid() : tempBoxItems[index].id;
     let newPokemon: IPokemon = {
@@ -60,10 +62,13 @@ const Box: NextPage = () => {
       gender: 0,
     };
     detailMap.set(tempBoxItems[index].id, newPokemon);
+    let tempUpdate: IUpdateData = {
+      guid: tempPokemon.id,
+      pokkemonData: newPokemon,
+    };
+    arrChanges.push();
 
-    arrChanges.push(newPokemon);
-
-    setArrChanges((arrChanges) => [...arrChanges, newPokemon]);
+    setArrChanges((arrChanges) => [...arrChanges, tempUpdate]);
     setBoxItems(tempBoxItems);
   };
   const handleClick = (e: any, index: number) => {
@@ -73,8 +78,10 @@ const Box: NextPage = () => {
         break;
       case 2:
         let tempBoxItems: IBoxItem[] = [...boxItems];
-        if (tempBoxItems[boxIndex].id) {
-          tempBoxItems[boxIndex].isCaught = !tempBoxItems[boxIndex].isCaught;
+        let pokemonIndex = (currentBox - 1) * 30 + boxIndex;
+        if (tempBoxItems[pokemonIndex].id) {
+          tempBoxItems[pokemonIndex].isCaught =
+            !tempBoxItems[pokemonIndex].isCaught;
           setBoxItems(tempBoxItems);
         }
         break;
@@ -84,8 +91,11 @@ const Box: NextPage = () => {
   };
 
   const onSave = () => {
-    console.log(boxItems);
-    console.log(arrChanges);
+    let temparr = arrChanges
+      .reverse()
+      .filter(
+        (c, index, self) => self.findIndex((t) => c.guid === t.guid) === index
+      );
   };
   return (
     <div className="container">
@@ -138,7 +148,7 @@ const Box: NextPage = () => {
                     styles.item,
                     pokemon.boxPosition === boxIndex + 1
                       ? styles["item--selected"]
-                      : "asd",
+                      : "",
                     pokemon.id ? styles["item--not-empty"] : null,
                   ].join(" ")}
                 >
@@ -169,13 +179,125 @@ const Box: NextPage = () => {
           filterOption={createFilter({ ignoreAccents: false })}
           onChange={(e: any) => setDropdownIndex(e.value)}
         />
-        {dropdownIndex !== null ? (
-          <img
-            onClick={addToBoxItem}
-            src={`/sprites/${spritesSpecies[dropdownIndex!].forms[0].sprite}`}
-            alt=""
-          />
+        {dropdownIndex !== null &&
+        spritesSpecies[dropdownIndex!].hasGenderDifferences ? (
+          <div>
+            {spritesSpecies[dropdownIndex!].gender!.map((gender, index) => (
+              <div key={index}>
+                <div
+                  onClick={() =>
+                    addToBoxItem(false, 1, index + 1, gender.sprite)
+                  }
+                >
+                  <Image
+                    src={`/sprites/${gender.sprite}`}
+                    height={50}
+                    width={50}
+                    alt={`${gender.name} ${
+                      spritesSpecies[dropdownIndex!].name
+                    }`}
+                  />
+                  <p>{`${gender.name} ${
+                    spritesSpecies[dropdownIndex!].name
+                  }`}</p>
+                </div>
+                <div
+                  onClick={() =>
+                    addToBoxItem(true, 1, index + 1, gender.shinySprite)
+                  }
+                >
+                  <Image
+                    src={`/sprites/${gender.shinySprite}`}
+                    height={50}
+                    width={50}
+                    alt={"shiny " + gender.name}
+                  />
+                  <p>{`shiny ${gender.name} ${
+                    spritesSpecies[dropdownIndex!].name
+                  }`}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : dropdownIndex !== null ? (
+          <div>
+            <div
+              onClick={() =>
+                addToBoxItem(
+                  false,
+                  1,
+                  0,
+                  spritesSpecies[dropdownIndex!].forms[0].sprite
+                )
+              }
+            >
+              <Image
+                src={`/sprites/${
+                  spritesSpecies[dropdownIndex!].forms[0].sprite
+                }`}
+                height={50}
+                width={50}
+                alt={`${spritesSpecies[dropdownIndex!].name}`}
+              />
+              <p>{`${spritesSpecies[dropdownIndex!].name}`}</p>
+            </div>
+            <div
+              onClick={() =>
+                addToBoxItem(
+                  true,
+                  1,
+                  0,
+                  spritesSpecies[dropdownIndex!].forms[0].shinySprite
+                )
+              }
+            >
+              <Image
+                src={`/sprites/${
+                  spritesSpecies[dropdownIndex!].forms[0].shinySprite
+                }`}
+                height={50}
+                width={50}
+                alt={`shiny ${spritesSpecies[dropdownIndex!].name}`}
+              />
+              <p>{`shiny ${spritesSpecies[dropdownIndex!].name}`}</p>
+            </div>
+          </div>
         ) : null}
+        {dropdownIndex !== null &&
+        spritesSpecies[dropdownIndex!].forms.length > 1
+          ? spritesSpecies[dropdownIndex!].forms.slice(1).map((form, index) => (
+              <div key={index}>
+                <div
+                  onClick={() => addToBoxItem(false, index + 1, 0, form.sprite)}
+                >
+                  <Image
+                    src={`/sprites/${form.sprite}`}
+                    height={50}
+                    width={50}
+                    alt={`${form.name} ${spritesSpecies[dropdownIndex!].name}`}
+                  />
+                  <p>{`${form.name} ${spritesSpecies[dropdownIndex!].name}`}</p>
+                </div>
+                <div
+                  onClick={() =>
+                    addToBoxItem(true, index + 1, 0, form.shinySprite)
+                  }
+                >
+                  <Image
+                    src={`/sprites/${form.shinySprite}`}
+                    height={50}
+                    width={50}
+                    alt={`shiny ${form.name} ${
+                      spritesSpecies[dropdownIndex!].name
+                    }`}
+                  />
+                  <p>{`shiny ${form.name} ${
+                    spritesSpecies[dropdownIndex!].name
+                  }`}</p>
+                </div>
+              </div>
+            ))
+          : null}
         <button onClick={onSave}>SAVE</button>
         <div className="">{boxItems[0].id}</div>
         <div className="">{detailMap.get(boxItems[0].id)?.gender}</div>
