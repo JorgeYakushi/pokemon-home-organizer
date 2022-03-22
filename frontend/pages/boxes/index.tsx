@@ -1,8 +1,8 @@
 import { useState } from "react";
 import type { NextPage } from "next";
-import { boxes } from "@/mocks/boxes";
+
 import { useEffect } from "react";
-import { IBox } from "@/interfaces/box.interface";
+
 import styles from "@/styles/modules/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,42 +18,42 @@ interface IBoxItem {
 }
 
 const BoxList: NextPage = () => {
-  const [currentPage, setCurrentPage] = useState<number>(1);
-  const pageSize: number = 30;
-  const totalPages: number = Math.ceil(boxes.length / pageSize);
-  const [box, setBox] = useState<IBox[]>([]);
-  const [boxItems, setBoxItems] = useState<IBoxItem[]>([]);
+  // const [currentPage, setCurrentPage] = useState<number>(1);
+  // const pageSize: number = 30;
+  // const totalPages: number = Math.ceil(boxes.length / pageSize);
+  // const [box, setBox] = useState<IBox[]>([]);
+  // const [boxItems, setBoxItems] = useState<IBoxItem[]>([]);
 
-  const prevPage = () => {
-    if (currentPage > 1) {
-      setCurrentPage(currentPage - 1);
-    }
-  };
-  const nextPage = () => {
-    if (currentPage < totalPages) {
-      setCurrentPage(currentPage + 1);
-    }
-  };
-  const addBox = () => {
-    const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name: 1, number: 11 }),
-    };
-    console.log(requestOptions);
-    fetch(`${process.env.BACKEND_API}/add-box`, requestOptions)
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-  };
-  const getBoxes = () => {
-    fetch(`${process.env.BACKEND_API}/boxes`)
-      .then((response) => response.json())
-      .then((data) => console.log(data));
-  };
+  // const prevPage = () => {
+  //   if (currentPage > 1) {
+  //     setCurrentPage(currentPage - 1);
+  //   }
+  // };
+  // const nextPage = () => {
+  //   if (currentPage < totalPages) {
+  //     setCurrentPage(currentPage + 1);
+  //   }
+  // };
+  // const addBox = () => {
+  //   const requestOptions = {
+  //     method: "POST",
+  //     headers: { "Content-Type": "application/json" },
+  //     body: JSON.stringify({ name: 1, number: 11 }),
+  //   };
+  //   console.log(requestOptions);
+  //   fetch(`${process.env.BACKEND_API}/add-box`, requestOptions)
+  //     .then((response) => response.json())
+  //     .then((data) => console.log(data));
+  // };
+  // const getBoxes = () => {
+  //   fetch(`${process.env.BACKEND_API}/boxes`)
+  //     .then((response) => response.json())
+  //     .then((data) => console.log(data));
+  // };
 
   return (
     <div className="container">
-      <button onClick={getBoxes}>GET BOXES</button>
+      {/* <button onClick={getBoxes}>GET BOXES</button>
       <button onClick={addBox}>ADD BOX</button>
       <Link href={"/box/1"}>GO TO 1</Link>
       <div className={styles.table}>
@@ -106,7 +106,7 @@ const BoxList: NextPage = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

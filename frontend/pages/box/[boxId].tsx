@@ -7,10 +7,10 @@ import {
   IPokemonData,
   IPokemonDetail,
 } from "@/interfaces/pokemon-detail.interface";
-import { PokemonDetail } from "./detail";
+import { PokemonDetail } from "@/components/box/detail";
 import { Header } from "@/components/layout/header";
-import { TableBody } from "./table-body";
-import { TableHeader } from "./table-header";
+import { TableBody } from "@/components/box/table-body";
+import { TableHeader } from "@/components/box/table-header";
 
 const Box: NextPage = (props: any) => {
   useEffect(() => {
