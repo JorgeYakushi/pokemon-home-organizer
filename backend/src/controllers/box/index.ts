@@ -1,27 +1,52 @@
 import { Response, Request } from "express";
-import { IBoxItems } from "@/types/box-items.interface";
+import { IUserBoxes, IBox, IBoxItem } from "@/types/box-items.interface";
 import { IPokemonData } from "@/types/pokemon.interface";
-import BoxItems from "@/models/box-item.model";
+import UserBoxes from "@/models/box-item.model";
 import PokemonData from "@/models/pokemon.model";
+import { v1 as uuidv1 } from "uuid";
+
 const getBoxData = async (req: Request, res: Response): Promise<void> => {
   try {
-    const boxes: IBoxItems | null = await BoxItems.findOne(req.query);
-    const pokemonData: IPokemonData[] = await PokemonData.find();
-    res.status(200).json({ boxes, pokemonData });
+    const boxData: IUserBoxes | null = await UserBoxes.findOne(req.query);
+    const pokemonData: IPokemonData[] = await PokemonData.find(req.query);
+    res.status(200).json({ boxData, pokemonData });
+  } catch (error) {
+    throw error;
+  }
+};
+const createBoxes = async (userId: string): Promise<void> => {
+  try {
+    let boxes: IBox[] = [];
+    for (let i = 0; i < 200; i++) {
+      let boxName: string = `Box ${i + 1}`;
+      let boxItems: IBoxItem[] = [];
+      for (let j = 0; j < 30; j++) {
+        let boxItem: IBoxItem = {
+          pokemonGuid: uuidv1(),
+          boxPosition: j + 1,
+        };
+        boxItems.push(boxItem);
+      }
+      let box: IBox = {
+        boxName,
+        boxItems,
+      };
+      boxes.push(box);
+    }
+
+    const body = {
+      userId,
+      boxes,
+    };
+
+    await UserBoxes.create(body);
   } catch (error) {
     throw error;
   }
 };
 
-const upsertBoxes = async (req: Request, res: Response): Promise<void> => {
+const upsertPokemon = async (req: Request, res: Response): Promise<void> => {
   try {
-    const queryBoxes = { userGuid: req.body.userGuid };
-    const updateBoxes = {
-      $set: { boxItems: req.body.boxItems, userGuid: req.body.userGuid },
-    };
-    const options = { upsert: true };
-    await BoxItems.updateOne(queryBoxes, updateBoxes, options);
-
     let bulkData = req.body.pokemonData.map(function (pokemon) {
       return {
         updateOne: {
@@ -41,4 +66,4 @@ const upsertBoxes = async (req: Request, res: Response): Promise<void> => {
   }
 };
 
-export { getBoxData, upsertBoxes };
+export { getBoxData, createBoxes, upsertPokemon };

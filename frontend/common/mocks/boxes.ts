@@ -1,4 +1,4 @@
-import { IBox } from "../common/interfaces/box.interface";
+import { IBox } from "../interfaces/box.interface";
 
 export const boxes: IBox[] = [
   {

@@ -1,13 +1,13 @@
 import { useState } from "react";
 import type { NextPage } from "next";
-import { boxes } from "../../mocks/boxes";
+import { boxes } from "@/mocks/boxes";
 import { useEffect } from "react";
-import { IBox } from "../../common/interfaces/box.interface";
-import styles from "../../styles/table.module.scss";
+import { IBox } from "@/interfaces/box.interface";
+import styles from "@/styles/modules/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-import spritesSpecies from "../../mocks/specieswithsprites.json";
+import spritesSpecies from "../../common/mocks/specieswithsprites.json";
 
 interface IBoxItem {
   id: number;

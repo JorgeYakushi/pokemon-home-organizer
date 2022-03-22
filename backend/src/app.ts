@@ -5,6 +5,8 @@ import mongoose from "mongoose";
 import cors from "cors";
 import boxRoutes from "@/routes/index";
 
+import { createBoxes } from "@/controllers/box";
+
 import { model, Schema } from "mongoose";
 import { IUser } from "@/types/user.interface";
 import session from "express-session";
@@ -62,9 +64,9 @@ passport.use(
       callbackURL: "http://localhost:4000/auth/google/callback",
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
-    async (req, accessToken, refreshToken, profile, cb) => {
+    async (accessToken, refreshToken, profile, cb) => {
       try {
-        let user = await User.findOne({
+        let user: any = await User.findOne({
           googleId: profile.id,
         });
         if (user) {
@@ -74,7 +76,7 @@ passport.use(
             googleId: profile.id,
             displayName: profile.displayName,
           });
-
+          createBoxes(profile.id);
           cb(null, user);
         }
       } catch (err) {
