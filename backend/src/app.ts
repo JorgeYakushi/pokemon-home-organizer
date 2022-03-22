@@ -1,4 +1,5 @@
 import "dotenv/config";
+import "module-alias/register";
 import express, { Express } from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
