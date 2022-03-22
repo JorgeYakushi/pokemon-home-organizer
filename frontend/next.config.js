@@ -4,10 +4,6 @@ const nextConfig = {
   env: {
     BACKEND_API: process.env.BACKEND_API,
   },
-  images: {
-    loader: "imgix",
-    path: "/",
-  },
 };
 
 module.exports = nextConfig;
