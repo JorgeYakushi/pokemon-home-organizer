@@ -58,18 +58,7 @@
     "captureRate": 45,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0003_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0003_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0003_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0003_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 3,
@@ -82,7 +71,20 @@
         "order": 3,
         "sprite": "poke_capture_0003_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0003_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0003_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0003_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0003_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0003_000_fd_n_00000000_f_r.png"
+          }
+        ]
       },
       {
         "formId": 1031,
@@ -347,18 +349,7 @@
     "captureRate": 45,
     "hatchCounter": 15,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0012_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0012_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0012_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0012_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 12,
@@ -371,7 +362,20 @@
         "order": 16,
         "sprite": "poke_capture_0012_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0012_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0012_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0012_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0012_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0012_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -560,18 +564,7 @@
     "captureRate": 255,
     "hatchCounter": 15,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0019_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0019_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0019_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0019_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 19,
@@ -584,7 +577,20 @@
         "order": 25,
         "sprite": "poke_capture_0019_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0019_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0019_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0019_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0019_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0019_000_fd_n_00000000_f_r.png"
+          }
+        ]
       },
       {
         "formId": 1091,
@@ -610,18 +616,7 @@
     "captureRate": 127,
     "hatchCounter": 15,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0020_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0020_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0020_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0020_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 20,
@@ -634,7 +629,20 @@
         "order": 27,
         "sprite": "poke_capture_0020_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0020_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0020_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0020_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0020_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0020_000_fd_n_00000000_f_r.png"
+          }
+        ]
       },
       {
         "formId": 1092,
@@ -773,18 +781,6 @@
     "captureRate": 190,
     "hatchCounter": 10,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0025_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0025_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0025_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0025_000_fd_n_00000000_f_r.png"
-      }
-    ],
     "forms": [
       {
         "formId": 25,
@@ -797,7 +793,20 @@
         "order": 36,
         "sprite": "poke_capture_0025_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0025_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0025_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0025_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0025_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0025_000_fd_n_00000000_f_r.png"
+          }
+        ]
       },
       {
         "formId": 1085,
@@ -1005,18 +1014,7 @@
     "captureRate": 75,
     "hatchCounter": 10,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0026_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0026_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0026_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0026_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 26,
@@ -1029,7 +1027,20 @@
         "order": 52,
         "sprite": "poke_capture_0026_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0026_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "hasGenderDifferences": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0026_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0026_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0026_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0026_000_fd_n_00000000_f_r.png"
+          }
+        ]
       },
       {
         "formId": 1100,
@@ -1457,18 +1468,6 @@
     "captureRate": 255,
     "hatchCounter": 15,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0041_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0041_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0041_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0041_000_fd_n_00000000_f_r.png"
-      }
-    ],
     "forms": [
       {
         "formId": 41,
@@ -1481,7 +1480,19 @@
         "order": 74,
         "sprite": "poke_capture_0041_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0041_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0041_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0041_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0041_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0041_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -1494,18 +1505,7 @@
     "captureRate": 90,
     "hatchCounter": 15,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0042_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0042_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0042_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0042_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 42,
@@ -1518,7 +1518,19 @@
         "order": 75,
         "sprite": "poke_capture_0042_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0042_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0042_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0042_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0042_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0042_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -1556,18 +1568,7 @@
     "captureRate": 120,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0044_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0044_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0044_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0044_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 44,
@@ -1580,7 +1581,19 @@
         "order": 78,
         "sprite": "poke_capture_0044_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0044_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0044_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0044_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0044_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0044_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -1593,18 +1606,7 @@
     "captureRate": 45,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0045_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0045_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0045_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0045_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 45,
@@ -1617,7 +1619,19 @@
         "order": 79,
         "sprite": "poke_capture_0045_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0045_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0045_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0045_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0045_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0045_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -1818,6 +1832,7 @@
         "order": 89,
         "sprite": "poke_capture_0052_000_mf_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0052_000_mf_n_00000000_f_r.png",
+        "hasGenderDifferences": 1,
         "default": 1
       },
       {
@@ -2145,18 +2160,7 @@
     "captureRate": 100,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0064_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0064_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0064_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0064_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 64,
@@ -2169,7 +2173,19 @@
         "order": 105,
         "sprite": "poke_capture_0064_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0064_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0064_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0064_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0064_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0064_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -2182,18 +2198,6 @@
     "captureRate": 50,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0065_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0065_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0065_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0065_000_fd_n_00000000_f_r.png"
-      }
-    ],
     "forms": [
       {
         "formId": 65,
@@ -2219,7 +2223,19 @@
         "order": 107,
         "sprite": "poke_capture_0065_001_mf_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0065_001_mf_n_00000000_f_r.png",
-        "default": 0
+        "default": 0,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0065_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0065_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0065_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0065_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },
@@ -2799,18 +2815,7 @@
     "captureRate": 190,
     "hatchCounter": 20,
     "hasGenderDifferences": 1,
-    "gender": [
-      {
-        "name": "male",
-        "sprite": "poke_capture_0084_000_md_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0084_000_md_n_00000000_f_r.png"
-      },
-      {
-        "name": "female",
-        "sprite": "poke_capture_0084_000_fd_n_00000000_f_n.png",
-        "shinySprite": "poke_capture_0084_000_fd_n_00000000_f_r.png"
-      }
-    ],
+
     "forms": [
       {
         "formId": 84,
@@ -2823,7 +2828,19 @@
         "order": 138,
         "sprite": "poke_capture_0084_000_fd_n_00000000_f_n.png",
         "shinySprite": "poke_capture_0084_000_fd_n_00000000_f_r.png",
-        "default": 1
+        "default": 1,
+        "gender": [
+          {
+            "name": "male",
+            "sprite": "poke_capture_0084_000_md_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0084_000_md_n_00000000_f_r.png"
+          },
+          {
+            "name": "female",
+            "sprite": "poke_capture_0084_000_fd_n_00000000_f_n.png",
+            "shinySprite": "poke_capture_0084_000_fd_n_00000000_f_r.png"
+          }
+        ]
       }
     ]
   },

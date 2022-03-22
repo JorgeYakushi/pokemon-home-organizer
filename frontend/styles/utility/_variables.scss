@@ -1,13 +1,7 @@
 :root {
-  --color-primary: #39b5ac;
-  --color-primary-light1: #d7f89d;
-  --color-primary-light2: #92e5cb;
-  --color-primary-light2b: #7accab;
-  --circle-shadow: radial-gradient(
-    circle,
-    rgba(122, 204, 171, 0.65) 0%,
-    rgba(122, 204, 171, 0) 62%
-  );
+  --color-black: #3e494f;
+  --color-red: #ee0000;
+  --color-yellow: #ffdf00;
 
-  --color-primary-light2c: hsla(0, 0%, 100%, 0.7333333333333333);
+  --shadow-1: 5px 5px 15px rgba(90, 90, 90, 0.5);
 }

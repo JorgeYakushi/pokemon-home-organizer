@@ -1,0 +1,33 @@
+.header {
+  &__content {
+    background-color: var(--color-yellow);
+    height: 50px;
+    width: 50%;
+    min-width: 500px;
+    border-radius: 0px 0px 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 2rem 1rem 4rem;
+    box-shadow: var(--shadow-1);
+    font-weight: 600;
+    position: relative;
+  }
+  &__pokeball {
+    position: absolute;
+    left: 1rem;
+    bottom: -50%;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    span {
+      height: 1.5em;
+      width: 2px;
+      background-color: var(--color-black);
+    }
+  }
+}

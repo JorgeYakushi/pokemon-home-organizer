@@ -23,3 +23,23 @@
     width: 100%;
   }
 }
+.variants {
+  &__body {
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1em;
+    > div {
+      display: flex;
+      align-items: center;
+      width: 33%;
+      gap: 0.5rem;
+    }
+  }
+  &__pick {
+    cursor: pointer;
+  }
+}
