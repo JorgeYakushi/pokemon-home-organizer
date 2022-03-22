@@ -12,33 +12,71 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.addBox = exports.getBoxes = void 0;
-const box_model_1 = __importDefault(require("@/models/box.model"));
-const getBoxes = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.upsertPokemon = exports.createBoxes = exports.getBoxData = void 0;
+const box_item_model_1 = __importDefault(require("@/models/box-item.model"));
+const pokemon_model_1 = __importDefault(require("@/models/pokemon.model"));
+const uuid_1 = require("uuid");
+const getBoxData = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const boxes = yield box_model_1.default.find();
-        res.status(200).json({ boxes });
+        const userId = req.query;
+        const boxData = yield box_item_model_1.default.findOne(userId);
+        const pokemonData = yield pokemon_model_1.default.find(userId);
+        res.status(200).json(Object.assign(Object.assign({}, userId), { boxData, pokemonData }));
     }
     catch (error) {
         throw error;
     }
 });
-exports.getBoxes = getBoxes;
-const addBox = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+exports.getBoxData = getBoxData;
+const createBoxes = (userId) => __awaiter(void 0, void 0, void 0, function* () {
     try {
-        const body = req.body;
-        const box = new box_model_1.default({
-            name: body.name,
-            number: body.number,
+        let boxes = [];
+        for (let i = 0; i < 200; i++) {
+            let boxName = `Box ${i + 1}`;
+            let boxItems = [];
+            for (let j = 0; j < 30; j++) {
+                let boxItem = {
+                    pokemonGuid: (0, uuid_1.v1)(),
+                    boxPosition: j + 1,
+                };
+                boxItems.push(boxItem);
+            }
+            let box = {
+                boxName,
+                boxItems,
+            };
+            boxes.push(box);
+        }
+        const body = {
+            userId,
+            boxes,
+        };
+        yield box_item_model_1.default.create(body);
+    }
+    catch (error) {
+        throw error;
+    }
+});
+exports.createBoxes = createBoxes;
+const upsertPokemon = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        let pokemonData = req.body.pokemonData;
+        let bulkData = pokemonData.map(function (data) {
+            return {
+                updateOne: {
+                    filter: { pokemonGuid: data.pokemonGuid },
+                    update: { $set: data },
+                    upsert: true,
+                },
+            };
         });
-        const newBox = yield box.save();
-        const allBoxes = yield box_model_1.default.find();
-        res
-            .status(201)
-            .json({ message: "Box added", box: newBox, boxes: allBoxes });
+        yield pokemon_model_1.default.bulkWrite(bulkData);
+        res.status(200).json({
+            message: "updated boxes",
+        });
     }
     catch (error) {
         throw error;
     }
 });
-exports.addBox = addBox;
+exports.upsertPokemon = upsertPokemon;
