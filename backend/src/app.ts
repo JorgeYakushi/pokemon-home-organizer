@@ -61,7 +61,7 @@ passport.use(
     {
       clientID: process.env.CLIENT_ID,
       clientSecret: process.env.CLIENT_SECRET,
-      callbackURL: "http://localhost:4000/auth/google/callback",
+      callbackURL: `${process.env.API}/auth/google/callback`,
       userProfileURL: "https://www.googleapis.com/oauth2/v3/userinfo",
     },
     async (accessToken, refreshToken, profile, cb) => {
@@ -91,15 +91,15 @@ app.get(
 );
 app.get(
   "/auth/google/callback",
-  passport.authenticate("google", { failureRedirect: "http://localhost:3000" }),
+  passport.authenticate("google", { failureRedirect: `${process.env.WEB}` }),
   function (req: any, res) {
     res.redirect(
-      `http://localhost:3000/?googleId=${req.user.googleId}&displayName=${req.user.displayName}`
+      `${process.env.WEB}/?googleId=${req.user.googleId}&displayName=${req.user.displayName}`
     );
   }
 );
 app.get("/logout", function (req, res) {
-  res.redirect("http://localhost:3000");
+  res.redirect(`${process.env.WEB}`);
 });
 mongoose.set("useFindAndModify", false);
 mongoose.set("useCreateIndex", true);
