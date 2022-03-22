@@ -1,22 +1,25 @@
 import { model, Schema } from "mongoose";
 import { IPokemonData } from "@/types/pokemon.interface";
 
-const pokemonSchema: Schema = new Schema({
+const pokemonDetailSchema: Schema = new Schema({
   speciesId: { type: Number, required: true },
+  formId: { type: Number, required: true },
+  gender: { type: Number, required: true },
+  sprite: { type: String, required: true },
+  isCaught: { type: Boolean, required: true },
   isShiny: { type: Boolean, required: true },
-  formId: { type: Number, required: false },
-  gender: { type: Number, required: false },
+  hasChanged: { type: Boolean, required: true },
 });
 
 const pokemonDataSchema: Schema = new Schema(
   {
-    userGuid: { type: String, required: true },
+    userId: { type: String, required: true },
     pokemonGuid: {
       type: String,
       required: true,
     },
-    pokemonData: {
-      type: pokemonSchema,
+    pokemonDetail: {
+      type: pokemonDetailSchema,
       required: true,
     },
   },

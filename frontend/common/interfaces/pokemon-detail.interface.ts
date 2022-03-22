@@ -5,4 +5,11 @@ export interface IPokemonDetail {
   sprite: string;
   isCaught: boolean;
   isShiny: boolean;
+  hasChanged: boolean;
+}
+
+export interface IPokemonData {
+  userId: string;
+  pokemonGuid: string;
+  pokemonDetail: IPokemonDetail;
 }

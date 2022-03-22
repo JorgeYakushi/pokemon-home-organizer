@@ -1,3 +1,4 @@
+import { IPokemonData } from "./pokemon-detail.interface";
 export interface IBoxItem {
   pokemonGuid: string;
   boxPosition: number;
@@ -10,6 +11,7 @@ interface IBoxData {
   boxes: IBox[];
 }
 export interface IUserBoxes {
-  pokemonData: string;
+  userId: string;
+  pokemonData: IPokemonData[];
   boxData: IBoxData;
 }

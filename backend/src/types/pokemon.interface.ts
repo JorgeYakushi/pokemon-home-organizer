@@ -1,14 +1,17 @@
 import { Document } from "mongoose";
 
-interface IPokemon {
+interface IPokemonDetail {
   speciesId: number;
-  isShiny: boolean;
   formId: number;
   gender: number;
+  sprite: string;
+  isCaught: boolean;
+  isShiny: boolean;
+  hasChanged: boolean;
 }
 
 export interface IPokemonData extends Document {
-  userGuid: string;
+  userId: string;
   pokemonGuid: string;
-  pokemonData: IPokemon;
+  pokemonDetail: IPokemonDetail;
 }

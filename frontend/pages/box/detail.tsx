@@ -46,6 +46,7 @@ export const PokemonDetail: FC<IDetailProps> = ({
       sprite: sprite,
       isCaught: false,
       isShiny: isShiny,
+      hasChanged: true,
     };
     tempMap.set(pokemonGuid, newPokemon);
     setDetailMap(tempMap);

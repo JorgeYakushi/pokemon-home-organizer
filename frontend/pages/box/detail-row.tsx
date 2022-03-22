@@ -39,7 +39,6 @@ export const DetailRow: FC<IDetailRowProps> = ({
 }) => {
   const onClick = (gender: number, isShiny: boolean) => {
     let sprite: string = "";
-
     if (form.hasGenderDifferences && isShiny) {
       sprite = form.gender![gender - 1].shinySprite;
     } else if (form.hasGenderDifferences && !isShiny) {
