@@ -11,6 +11,7 @@ import { PokemonDetail } from "@/components/box/detail";
 import { Header } from "@/components/layout/header";
 import { TableBody } from "@/components/box/table-body";
 import { TableHeader } from "@/components/box/table-header";
+import axios from "axios";
 
 const Box: NextPage = (props: any) => {
   useEffect(() => {
@@ -34,6 +35,7 @@ const Box: NextPage = (props: any) => {
   useEffect(() => {
     if (!router.isReady) return;
     setCurrentBox(parseInt(router.query["boxId"] as string));
+    axios(`${process.env.BACKEND_API}/boxes`);
   }, [router.isReady, router.query]);
   const onSave = () => {
     let userId = userBoxes?.userId!;

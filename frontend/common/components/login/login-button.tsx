@@ -2,7 +2,7 @@ import { FC, useState } from "react";
 import Image from "next/image";
 import styles from "@/styles/login.module.scss";
 import Link from "next/link";
-import { titleCase } from "common/utils/string-manip";
+import { titleCase } from "@/utils/functions/string-manip";
 export const LoginButton: FC<{ service: string }> = ({ service }) => {
   return (
     <Link href={`${process.env.BACKEND_API}/auth/${service}`} passHref>

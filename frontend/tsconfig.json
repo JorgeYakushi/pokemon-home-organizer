@@ -21,7 +21,8 @@
       "@/projects/*": ["common/components/projects/*"],
       "@/styles/*": ["styles/modules/*"],
       "@/interfaces/*": ["common/interfaces/*"],
-      "@/mocks/*": ["common/mocks/*"]
+      "@/mocks/*": ["common/mocks/*"],
+      "@/utils/*": ["common/utils/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
