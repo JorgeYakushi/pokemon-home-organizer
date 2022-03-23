@@ -8,42 +8,58 @@ function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const [userData, setUserData] = useState(null);
   const [counter, setCounter] = useState(0);
-
-  axios.interceptors.request.use(
-    (request) => {
-      setCounter(counter + 1);
-      return request;
-    },
-    (error) => {
-      return Promise.reject(error);
-    }
-  );
-  axios.interceptors.response.use(
-    (res) => {
-      setCounter(counter - 1);
-      return res;
-    },
-    (error) => {
-      console.error(error);
-    }
-  );
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    if (typeof window !== "undefined" && localStorage.getItem("userData")) {
-      getUserData();
-    } else if (typeof window !== "undefined" && router.pathname !== "/login") {
-      router.push("/login");
+    axios.interceptors.request.use(
+      (request) => {
+        setCounter(counter + 1);
+        return request;
+      },
+      (error) => {
+        return Promise.reject(error);
+      }
+    );
+    axios.interceptors.response.use(
+      (res) => {
+        setCounter(counter - 1);
+
+        return res;
+      },
+      (error) => {
+        console.error(error);
+      }
+    );
+  }, []);
+
+  useEffect(() => {
+    if (isLoaded) {
+      return;
+    }
+    const getUserData = () => {
+      let googleId: string = JSON.parse(
+        localStorage.getItem("userData") || ""
+      ).googleId;
+
+      axios(`${process.env.BACKEND_API}/boxes?userId=${googleId}`).then(
+        (response) => {
+          setUserData(response.data);
+          console.log(response.data);
+        }
+      );
+    };
+
+    if (typeof window !== "undefined" && userData === null) {
+      if (localStorage.getItem("userData")) {
+        console.log("getting data");
+        setIsLoaded(true);
+        getUserData();
+      } else if (router.pathname !== "/login") {
+        router.push("/login");
+      }
     }
   }, [router]);
-  const getUserData = () => {
-    let googleId: string = JSON.parse(
-      localStorage.getItem("userData") || ""
-    ).googleId;
 
-    axios(`${process.env.BACKEND_API}/boxes?userId=${googleId}`).then(
-      (response) => setUserData(response.data)
-    );
-  };
   return (
     <>
       {counter > 0 ? <Spinner></Spinner> : null}

@@ -14,8 +14,9 @@ import { TableHeader } from "@/components/box/table-header";
 import axios from "axios";
 
 const Box: NextPage = (props: any) => {
+  const [userBoxes, setUserBoxes] = useState<IUserBoxes>();
   useEffect(() => {
-    if (props.userData) {
+    if (props.userData && !userBoxes) {
       setUserBoxes(props.userData);
       let pokemonData: IPokemonData[] = props.userData.pokemonData;
       var newMap = new Map(
@@ -23,8 +24,8 @@ const Box: NextPage = (props: any) => {
       );
       setDetailMap(newMap);
     }
-  }, [props]);
-  const [userBoxes, setUserBoxes] = useState<IUserBoxes>();
+  }, [props, userBoxes]);
+
   const [pokemonGuid, setPokemonGuid] = useState<string>("");
   const router = useRouter();
   const [currentBox, setCurrentBox] = useState(0);
@@ -35,7 +36,6 @@ const Box: NextPage = (props: any) => {
   useEffect(() => {
     if (!router.isReady) return;
     setCurrentBox(parseInt(router.query["boxId"] as string));
-    axios(`${process.env.BACKEND_API}/boxes`);
   }, [router.isReady, router.query]);
   const onSave = () => {
     let userId = userBoxes?.userId!;
@@ -48,15 +48,8 @@ const Box: NextPage = (props: any) => {
       };
       pokemonData.push(data);
     });
-    const requestOptions = {
-      method: "PUT",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ pokemonData }),
-    };
 
-    fetch(`${process.env.BACKEND_API}/boxes/update`, requestOptions)
-      .then((response) => response.json())
-      .then((data) => console.log(data));
+    axios.put(`${process.env.BACKEND_API}/boxes/update`, { pokemonData });
   };
   return (
     <>
