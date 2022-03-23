@@ -62,7 +62,7 @@ const Box: NextPage = (props: any) => {
         <button onClick={onSave}>SAVE</button>
       </div>
       <Header></Header>
-      <div className="container main">
+      <div className="container main center">
         <div className={styles.table}>
           <TableHeader currentBox={currentBox}></TableHeader>
           <TableBody

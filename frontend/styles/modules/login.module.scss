@@ -1,0 +1,46 @@
+.login {
+  height: 100vh;
+
+  .content {
+    background-color: var(--color-yellow);
+    max-width: 1200px;
+    min-width: 356px;
+    width: 30%;
+    height: 50%;
+    border-radius: 25px;
+    box-shadow: var(--shadow-1);
+    flex-direction: column;
+    a {
+      cursor: pointer;
+      width: 250px;
+      border-radius: 4px;
+      padding: 1rem;
+      border: none;
+      box-shadow: var(--shadow-1);
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      margin-bottom: 1rem;
+      p {
+        margin-left: 1rem;
+        font-weight: 600;
+      }
+    }
+    .google {
+      background-color: white;
+      color: rgba(#333, 0.75);
+    }
+    .facebook {
+      background-color: rgb(50, 97, 163);
+      color: white;
+    }
+    .nintendo {
+      background-color: rgb(233, 0, 0);
+      color: white;
+    }
+    .apple {
+      background-color: white;
+      color: #333;
+    }
+  }
+}

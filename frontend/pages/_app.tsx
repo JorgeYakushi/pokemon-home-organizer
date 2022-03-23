@@ -13,11 +13,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       fetch(`${process.env.BACKEND_API}/boxes?userId=${googleId}`)
         .then((response) => response.json())
         .then((data) => {
-          console.log(data);
           setUserData(data);
         });
+    } else if (typeof window !== "undefined" && router.pathname !== "/login") {
+      router.push("/login");
     }
-  }, []);
+  }, [router]);
 
   return <Component {...pageProps} userData={userData} />;
 }
