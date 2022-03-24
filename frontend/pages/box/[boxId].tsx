@@ -25,8 +25,20 @@ const Box: NextPage = (props: any) => {
       setDetailMap(newMap);
     }
   }, [props, userBoxes]);
-
-  const [pokemonGuid, setPokemonGuid] = useState<string>("");
+  const emptyPokemon: IPokemonData = {
+    pokemonGuid: "",
+    pokemonDetail: {
+      speciesId: 1,
+      formId: 1,
+      gender: 1,
+      sprite: "",
+      isCaught: false,
+      isShiny: false,
+      hasChanged: false,
+    },
+  };
+  const [currentPokemon, setCurrentPokemon] =
+    useState<IPokemonData>(emptyPokemon);
   const router = useRouter();
   const [currentBox, setCurrentBox] = useState(0);
   const [detailMap, setDetailMap] = useState<Map<string, IPokemonDetail>>(
@@ -37,6 +49,7 @@ const Box: NextPage = (props: any) => {
     if (!router.isReady) return;
     setCurrentBox(parseInt(router.query["boxId"] as string));
   }, [router.isReady, router.query]);
+
   const onSave = () => {
     let userId = userBoxes?.userId!;
     let pokemonData: IPokemonData[] = [];
@@ -64,14 +77,15 @@ const Box: NextPage = (props: any) => {
             boxItems={userBoxes?.boxData.boxes[currentBox - 1].boxItems!}
             detailMap={detailMap}
             setDetailMap={setDetailMap}
-            setPokemonGuid={setPokemonGuid}
+            setCurrentPokemon={setCurrentPokemon}
           ></TableBody>
         </div>
         <div className="">
           <PokemonDetail
             detailMap={detailMap}
             setDetailMap={setDetailMap}
-            pokemonGuid={pokemonGuid}
+            currentPokemon={currentPokemon!}
+            setCurrentPokemon={setCurrentPokemon}
           ></PokemonDetail>
         </div>
       </div>

@@ -9,7 +9,7 @@ export interface IPokemonDetail {
 }
 
 export interface IPokemonData {
-  userId: string;
+  userId?: string;
   pokemonGuid: string;
   pokemonDetail: IPokemonDetail;
 }

@@ -2,28 +2,38 @@ import { FC } from "react";
 import Image from "next/image";
 import styles from "@/styles/table.module.scss";
 import { IBoxItem } from "@/interfaces/box-items.interface";
-import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";
+import {
+  IPokemonData,
+  IPokemonDetail,
+} from "@/interfaces/pokemon-detail.interface";
 import { useEffect, useState } from "react";
 interface ITableProps {
   boxItems: IBoxItem[];
   detailMap: Map<string, IPokemonDetail>;
   setDetailMap(map: Map<string, IPokemonDetail>): any;
-  setPokemonGuid(pokemonGuid: string): any;
+  setCurrentPokemon(pokemon: IPokemonData): any;
 }
 export const TableBody: FC<ITableProps> = ({
   boxItems,
   detailMap,
   setDetailMap,
-  setPokemonGuid,
+  setCurrentPokemon,
 }) => {
   const [boxIndex, setBoxIndex] = useState<number>(0);
 
   useEffect(() => {
     if (boxItems) {
-      setPokemonGuid(boxItems[boxIndex].pokemonGuid);
+      let pokemonGuid = boxItems[boxIndex].pokemonGuid;
+      let pokemonDetail = detailMap.get(boxItems[boxIndex].pokemonGuid)!;
+      if (pokemonDetail) setCurrentPokemon({ pokemonGuid, pokemonDetail });
     }
-  }, [boxIndex, boxItems, setPokemonGuid]);
+  }, [boxIndex, boxItems, setCurrentPokemon, detailMap]);
   const handleClick = (e: any, index: number) => {
+    let pokemonGuid = boxItems[index].pokemonGuid;
+    let pokemonDetail: IPokemonDetail = detailMap.get(pokemonGuid)!;
+
+    setCurrentPokemon({ pokemonGuid, pokemonDetail });
+
     switch (e.detail) {
       case 1:
         setBoxIndex(index);
@@ -73,7 +83,7 @@ export const TableBody: FC<ITableProps> = ({
                     width={50}
                     className={
                       !detailMap.get(pokemon.pokemonGuid)?.isCaught
-                        ? styles["not-caught"]
+                        ? "gray"
                         : ""
                     }
                   />

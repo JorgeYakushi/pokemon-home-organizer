@@ -2,6 +2,7 @@ import { FC } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/detail.module.scss";
+import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";
 interface IDetailRowProps {
   name: string;
   genderRate: number;
@@ -24,6 +25,7 @@ interface IDetailRowProps {
       shinySprite: string;
     }[];
   };
+  pokemonDetail: IPokemonDetail;
   handler(
     gender: number,
     isShiny: boolean,
@@ -35,6 +37,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
   name,
   form,
   genderRate,
+  pokemonDetail,
   handler,
 }) => {
   const onClick = (gender: number, isShiny: boolean) => {
@@ -50,6 +53,12 @@ export const DetailRow: FC<IDetailRowProps> = ({
     }
     handler(gender, isShiny, form.formId, sprite);
   };
+  const isSelectedClass = (genderId: number, isShiny: boolean): string =>
+    pokemonDetail?.formId === form.formId &&
+    pokemonDetail?.gender === genderId &&
+    pokemonDetail?.isShiny === isShiny
+      ? styles.variants__pick
+      : `${styles.variants__pick} gray`;
   return (
     <>
       <div className={styles.variants__row}>
@@ -66,7 +75,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {[-1, 0].indexOf(genderRate) < 0 ? (
             <Image
               onClick={() => onClick(1, false)}
-              className={styles.variants__pick}
+              className={isSelectedClass(1, false)}
               src={`/icons/female.svg`}
               height={25}
               width={25}
@@ -76,7 +85,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {[-1, 8].indexOf(genderRate) < 0 ? (
             <Image
               onClick={() => onClick(2, false)}
-              className={styles.variants__pick}
+              className={isSelectedClass(2, false)}
               src={`/icons/male.svg`}
               height={25}
               width={25}
@@ -86,7 +95,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {genderRate === -1 ? (
             <Image
               onClick={() => onClick(0, false)}
-              className={styles.variants__pick}
+              className={isSelectedClass(0, false)}
               src={`/icons/genderless.svg`}
               height={25}
               width={25}
@@ -99,7 +108,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {[-1, 0].indexOf(genderRate) < 0 ? (
             <Image
               onClick={() => onClick(1, true)}
-              className={styles.variants__pick}
+              className={isSelectedClass(1, true)}
               src={`/icons/female.svg`}
               height={25}
               width={25}
@@ -109,7 +118,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {[-1, 8].indexOf(genderRate) < 0 ? (
             <Image
               onClick={() => onClick(2, true)}
-              className={styles.variants__pick}
+              className={isSelectedClass(2, true)}
               src={`/icons/male.svg`}
               height={25}
               width={25}
@@ -119,7 +128,7 @@ export const DetailRow: FC<IDetailRowProps> = ({
           {genderRate === -1 ? (
             <Image
               onClick={() => onClick(0, true)}
-              className={styles.variants__pick}
+              className={isSelectedClass(1, true)}
               src={`/icons/genderless.svg`}
               height={25}
               width={25}
