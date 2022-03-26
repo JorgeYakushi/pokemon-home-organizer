@@ -2,50 +2,42 @@ import { FC } from "react";
 import Image from "next/image";
 import styles from "@/styles/table.module.scss";
 import { IBoxItem } from "@/interfaces/box-items.interface";
-import {
-  IPokemonData,
-  IPokemonDetail,
-} from "@/interfaces/pokemon-detail.interface";
+import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";
 import { useEffect, useState } from "react";
+import { useAppDispatch, useAppSelector } from "@/redux/hooks";
+import {
+  selectPokemonData,
+  updateMapItem,
+} from "@/redux/features/pokemonData/pokemonDataSlice";
+import { setCurrentPokemon } from "@/redux/features/currentPokemon/currentPokemonSlice";
 interface ITableProps {
   boxItems: IBoxItem[];
-  detailMap: Map<string, IPokemonDetail>;
-  setDetailMap(map: Map<string, IPokemonDetail>): any;
-  setCurrentPokemon(pokemon: IPokemonData): any;
 }
-export const TableBody: FC<ITableProps> = ({
-  boxItems,
-  detailMap,
-  setDetailMap,
-  setCurrentPokemon,
-}) => {
+export const TableBody: FC<ITableProps> = ({ boxItems }) => {
+  const dispatch = useAppDispatch();
+  const pokemonData = useAppSelector(selectPokemonData);
   const [boxIndex, setBoxIndex] = useState<number>(0);
 
   useEffect(() => {
     if (boxItems) {
       let pokemonGuid = boxItems[boxIndex].pokemonGuid;
-      let pokemonDetail = detailMap.get(boxItems[boxIndex].pokemonGuid)!;
-      if (pokemonDetail) setCurrentPokemon({ pokemonGuid, pokemonDetail });
+      let pokemonDetail = pokemonData[pokemonGuid]!;
+      if (pokemonDetail)
+        dispatch(setCurrentPokemon({ pokemonGuid, pokemonDetail }));
     }
-  }, [boxIndex, boxItems, setCurrentPokemon, detailMap]);
+  }, [boxIndex, boxItems, pokemonData, dispatch]);
   const handleClick = (e: any, index: number) => {
     let pokemonGuid = boxItems[index].pokemonGuid;
-    let pokemonDetail: IPokemonDetail = detailMap.get(pokemonGuid)!;
-
-    setCurrentPokemon({ pokemonGuid, pokemonDetail });
-
+    let pokemonDetail: IPokemonDetail = pokemonData[pokemonGuid]!;
+    dispatch(setCurrentPokemon({ pokemonGuid, pokemonDetail }));
+    setBoxIndex(index);
     switch (e.detail) {
-      case 1:
-        setBoxIndex(index);
-        break;
       case 2:
         let pokemonGuid = boxItems[index].pokemonGuid;
-        if (detailMap.get(pokemonGuid)) {
-          let tempMap = new Map(detailMap);
-          let tempPokemon: IPokemonDetail = tempMap.get(pokemonGuid)!;
+        if (pokemonData[pokemonGuid]) {
+          let tempPokemon: IPokemonDetail = { ...pokemonData[pokemonGuid] };
           tempPokemon.isCaught = !tempPokemon.isCaught;
-          tempMap.set(pokemonGuid, tempPokemon);
-          setDetailMap(tempMap);
+          dispatch(updateMapItem({ key: pokemonGuid, value: tempPokemon }));
         }
         break;
       default:
@@ -72,19 +64,15 @@ export const TableBody: FC<ITableProps> = ({
                 pokemon.pokemonGuid ? styles["item--not-empty"] : null,
               ].join(" ")}
             >
-              {detailMap.get(pokemon.pokemonGuid) ? (
+              {pokemonData[pokemon.pokemonGuid] ? (
                 <div>
                   <Image
-                    src={`/sprites/${
-                      detailMap.get(pokemon.pokemonGuid)?.sprite
-                    }`}
+                    src={`/sprites/${pokemonData[pokemon.pokemonGuid].sprite}`}
                     alt="no pokemon"
                     height={50}
                     width={50}
                     className={
-                      !detailMap.get(pokemon.pokemonGuid)?.isCaught
-                        ? "gray"
-                        : ""
+                      !pokemonData[pokemon.pokemonGuid].isCaught ? "gray" : ""
                     }
                   />
                 </div>

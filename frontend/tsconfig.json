@@ -22,7 +22,9 @@
       "@/styles/*": ["styles/modules/*"],
       "@/interfaces/*": ["common/interfaces/*"],
       "@/mocks/*": ["common/mocks/*"],
-      "@/utils/*": ["common/utils/*"]
+      "@/utils/*": ["common/utils/*"],
+      "@/redux/*": ["redux/*"],
+      "@/features/*": ["redux/features/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

@@ -4,6 +4,9 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Spinner } from "@/components/layout/spinner";
+import { Provider } from "react-redux";
+import { store } from "@/redux/store";
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const [userData, setUserData] = useState(null);
@@ -61,10 +64,10 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, [router]);
 
   return (
-    <>
+    <Provider store={store}>
       {counter > 0 ? <Spinner></Spinner> : null}
       <Component {...pageProps} userData={userData} />
-    </>
+    </Provider>
   );
 }
 

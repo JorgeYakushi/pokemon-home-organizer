@@ -13,3 +13,16 @@ export interface IPokemonData {
   pokemonGuid: string;
   pokemonDetail: IPokemonDetail;
 }
+
+export const emptyPokemon: IPokemonData = {
+  pokemonGuid: "",
+  pokemonDetail: {
+    speciesId: 0,
+    formId: 0,
+    gender: 0,
+    sprite: "",
+    isCaught: false,
+    isShiny: false,
+    hasChanged: false,
+  },
+};
