@@ -3,6 +3,12 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/detail.module.scss";
 import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";
+import { useAppDispatch, useAppSelector } from "@/redux/hooks";
+import { updateMapItem } from "@/redux/features/pokemonData/pokemonDataSlice";
+import {
+  setCurrentPokemon,
+  selectCurrentPokemon,
+} from "@/redux/features/currentPokemon/currentPokemonSlice";
 interface IDetailRowProps {
   name: string;
   genderRate: number;
@@ -25,21 +31,10 @@ interface IDetailRowProps {
       shinySprite: string;
     }[];
   };
-  pokemonDetail: IPokemonDetail;
-  handler(
-    gender: number,
-    isShiny: boolean,
-    formId: number,
-    sprite: string
-  ): any;
 }
-export const DetailRow: FC<IDetailRowProps> = ({
-  name,
-  form,
-  genderRate,
-  pokemonDetail,
-  handler,
-}) => {
+export const DetailRow: FC<IDetailRowProps> = ({ name, form, genderRate }) => {
+  const dispatch = useAppDispatch();
+  const currentPokemon = useAppSelector(selectCurrentPokemon);
   const onClick = (gender: number, isShiny: boolean) => {
     let sprite: string = "";
     if (form.hasGenderDifferences && isShiny) {
@@ -51,12 +46,26 @@ export const DetailRow: FC<IDetailRowProps> = ({
     } else {
       sprite = form.sprite;
     }
-    handler(gender, isShiny, form.formId, sprite);
+    let pokemonGuid = currentPokemon.pokemonGuid;
+    let updatePokemonDetail: IPokemonDetail = {
+      speciesId: currentPokemon.pokemonDetail.speciesId,
+      formId: form.formId,
+      gender: gender,
+      sprite: sprite,
+      isCaught: currentPokemon.pokemonDetail?.isCaught || false,
+      isShiny: isShiny,
+      hasChanged: true,
+    };
+    dispatch(
+      setCurrentPokemon({ pokemonGuid, pokemonDetail: updatePokemonDetail })
+    );
+    dispatch(updateMapItem({ key: pokemonGuid, value: updatePokemonDetail }));
   };
+
   const isSelectedClass = (genderId: number, isShiny: boolean): string =>
-    pokemonDetail?.formId === form.formId &&
-    pokemonDetail?.gender === genderId &&
-    pokemonDetail?.isShiny === isShiny
+    currentPokemon.pokemonDetail.formId === form.formId &&
+    currentPokemon.pokemonDetail.gender === genderId &&
+    currentPokemon.pokemonDetail.isShiny === isShiny
       ? styles.variants__pick
       : `${styles.variants__pick} gray`;
   return (

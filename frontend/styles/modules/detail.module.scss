@@ -1,26 +1,31 @@
 .preview {
   position: relative;
   &__image {
-    margin-top: 100px;
+    transform: translateY(-30%);
     position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 600px;
-    img {
-      width: 300px;
-      transform: translateY(-30%);
-    }
+    margin-top: 100px;
   }
   &__base {
-    position: absolute;
-    z-index: 0;
-    bottom: 0;
-    left: 12.5%;
+    position: relative;
     display: flex;
     align-items: center;
-    width: 100%;
+    justify-content: center;
+    margin-left: 125px;
+    margin-top: -125px;
+    &__image {
+      position: absolute;
+      z-index: 0;
+      bottom: 0;
+      left: 12.5%;
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
   }
 }
 .variants {

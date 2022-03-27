@@ -9,26 +9,23 @@ import {
   selectPokemonData,
   updateMapItem,
 } from "@/redux/features/pokemonData/pokemonDataSlice";
-import { setCurrentPokemon } from "@/redux/features/currentPokemon/currentPokemonSlice";
+import {
+  setCurrentPokemon,
+  selectCurrentPokemon,
+} from "@/redux/features/currentPokemon/currentPokemonSlice";
 interface ITableProps {
   boxItems: IBoxItem[];
 }
 export const TableBody: FC<ITableProps> = ({ boxItems }) => {
   const dispatch = useAppDispatch();
   const pokemonData = useAppSelector(selectPokemonData);
-  const [boxIndex, setBoxIndex] = useState<number>(0);
+  const currentPokemon = useAppSelector(selectCurrentPokemon);
+  const [boxIndex, setBoxIndex] = useState<number>(-1);
 
-  useEffect(() => {
-    if (boxItems) {
-      let pokemonGuid = boxItems[boxIndex].pokemonGuid;
-      let pokemonDetail = pokemonData[pokemonGuid]!;
-      if (pokemonDetail)
-        dispatch(setCurrentPokemon({ pokemonGuid, pokemonDetail }));
-    }
-  }, [boxIndex, boxItems, pokemonData, dispatch]);
   const handleClick = (e: any, index: number) => {
     let pokemonGuid = boxItems[index].pokemonGuid;
-    let pokemonDetail: IPokemonDetail = pokemonData[pokemonGuid]!;
+    let pokemonDetail: IPokemonDetail =
+      pokemonData[pokemonGuid] || currentPokemon.pokemonDetail;
     dispatch(setCurrentPokemon({ pokemonGuid, pokemonDetail }));
     setBoxIndex(index);
     switch (e.detail) {

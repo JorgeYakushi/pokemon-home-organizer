@@ -17,10 +17,10 @@ export interface IPokemonData {
 export const emptyPokemon: IPokemonData = {
   pokemonGuid: "",
   pokemonDetail: {
-    speciesId: 0,
-    formId: 0,
+    speciesId: 1,
+    formId: 1,
     gender: 0,
-    sprite: "",
+    sprite: "poke_capture_0001_000_mf_n_00000000_f_n.png",
     isCaught: false,
     isShiny: false,
     hasChanged: false,

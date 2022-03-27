@@ -51,15 +51,15 @@ const Box: NextPage = (props: any) => {
       pokemonDataArray.push(data);
     }
 
-    // axios.put(`${process.env.BACKEND_API}/boxes/update`, {
-    //   pokemonData: pokemonDataArray,
-    // });
+    axios.put(`${process.env.BACKEND_API}/boxes/update`, {
+      pokemonData: pokemonDataArray,
+    });
   };
+
   return (
     <>
       <div style={{ position: "fixed", top: "0", left: "0" }}>
         <button onClick={onSave}>SAVE</button>
-        <button>SAVE2</button>
       </div>
       <Header></Header>
       <div className="container main center">
@@ -69,7 +69,7 @@ const Box: NextPage = (props: any) => {
             boxItems={userBoxes?.boxData.boxes[currentBox - 1].boxItems!}
           ></TableBody>
         </div>
-        <div className="">{/* <PokemonDetail></PokemonDetail> */}</div>
+        <div className="">{<PokemonDetail></PokemonDetail>}</div>
       </div>
     </>
   );
