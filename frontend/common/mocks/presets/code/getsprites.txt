@@ -1,0 +1,70 @@
+ let tempArr = [...spritesSpecies];
+    tempArr.map((poke) => {
+      if (poke.genderRate === 0 || poke.genderRate === 8) {
+        poke.forms.map((form, index) => {
+          let pokenumber = String(poke.pokemonId).padStart(4, "0");
+          let formnumber = String(index).padStart(3, "0");
+          let gendercode = poke.genderRate === 0 ? "mo" : "fo";
+
+          let str = `poke_capture_${pokenumber}_${formnumber}_${gendercode}_n_00000000_f_n.png`;
+          let shinystr = `poke_capture_${pokenumber}_${formnumber}_${gendercode}_n_00000000_f_r.png`;
+          form.sprite = str;
+          form.shinySprite = shinystr;
+        });
+      }
+
+      poke.forms.map((form, index) => {
+        form.isShinyLocked = 0;
+        form.isBattleOnly = 0;
+        form.isShownInHome = 1;
+        if (form.isMega === 1 || form.isBattleOnly === 1) {
+          form.isShownInHome = 0;
+          form.isBattleOnly = 1;
+        }
+        if (
+          (poke.pokemonId === 351 ||
+            poke.pokemonId === 493 ||
+            (poke.pokemonId === 773 && poke.pokemonId === 890)) &&
+          index > 0
+        ) {
+          form.isShownInHome = 0;
+          form.isBattleOnly = 1;
+        }
+        if (poke.pokemonId === 774 && (index > 0 && index < 7)) {
+          form.isShownInHome = 0;
+          form.isBattleOnly = 0;
+        }
+        if (form.name.toString().includes("totem")) {
+          form.isBattleOnly = 0;
+          form.isShownInHome = 0;
+          if (form.name === "mimikyu-totem-busted") {
+            form.isBattleOnly = 1;
+          }
+        }
+        if (poke.pokemonId === 800) {
+          if (index > 0 && index < 3) {
+            form.isShownInHome = 0;
+            form.isBattleOnly = 0;
+          } else if (index === 3) {
+            form.isShownInHome = 0;
+            form.isBattleOnly = 1;
+          }
+        }
+
+        if (poke.pokemonId === 25 && index > 0) {
+          form.isShinyLocked = 1;
+          if (index < 7 || index === 14) {
+            form.isBattleOnly = 0;
+            form.isShownInHome = 0;
+          } else {
+            form.isBattleOnly = 0;
+            form.isShownInHome = 1;
+          }
+        }
+        if (poke.pokemonId === 386 && index > 0) {
+          form.isBattleOnly = 1;
+          form.isShownInHome = 1;
+        }
+      });
+    });
+    console.log(tempArr);

@@ -1,0 +1,26 @@
+ poke.forms.map((form, index) => {
+        if (
+          index > 0 &&
+          form.isShownInHome === 1 &&
+          !(
+            form.name === "alola" ||
+            form.name === "galar" ||
+            form.name === "galar-standard"
+          ) &&
+          poke.pokemonId !== 25 &&
+          poke.pokemonId !== 201 &&
+          poke.pokemonId !== 678 &&
+          poke.pokemonId !== 876
+        ) {
+          let newPoke = {
+            speciesId: poke.pokemonId,
+            formId: form.formId,
+            gender: poke.genderRate === -1 ? 0 : poke.genderRate === 0 ? 2 : 1,
+            sprite: form.sprite,
+            isCaught: false,
+            isShiny: false,
+          };
+          newArr.push(newPoke);
+          console.log(poke.name);
+        }
+      });

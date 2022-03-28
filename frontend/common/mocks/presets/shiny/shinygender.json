@@ -1,0 +1,794 @@
+[
+  {
+    "speciesId": 3,
+    "formId": 3,
+    "gender": 1,
+    "sprite": "poke_capture_0003_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 12,
+    "formId": 12,
+    "gender": 1,
+    "sprite": "poke_capture_0012_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 19,
+    "formId": 19,
+    "gender": 1,
+    "sprite": "poke_capture_0019_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 20,
+    "formId": 20,
+    "gender": 1,
+    "sprite": "poke_capture_0020_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 25,
+    "formId": 25,
+    "gender": 1,
+    "sprite": "poke_capture_0025_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 26,
+    "formId": 26,
+    "gender": 1,
+    "sprite": "poke_capture_0026_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 41,
+    "formId": 41,
+    "gender": 1,
+    "sprite": "poke_capture_0041_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 42,
+    "formId": 42,
+    "gender": 1,
+    "sprite": "poke_capture_0042_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 44,
+    "formId": 44,
+    "gender": 1,
+    "sprite": "poke_capture_0044_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 45,
+    "formId": 45,
+    "gender": 1,
+    "sprite": "poke_capture_0045_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 64,
+    "formId": 64,
+    "gender": 1,
+    "sprite": "poke_capture_0064_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 65,
+    "formId": 65,
+    "gender": 1,
+    "sprite": "poke_capture_0065_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 84,
+    "formId": 84,
+    "gender": 1,
+    "sprite": "poke_capture_0084_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 85,
+    "formId": 85,
+    "gender": 1,
+    "sprite": "poke_capture_0085_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 97,
+    "formId": 97,
+    "gender": 1,
+    "sprite": "poke_capture_0097_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 111,
+    "formId": 111,
+    "gender": 1,
+    "sprite": "poke_capture_0111_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 112,
+    "formId": 112,
+    "gender": 1,
+    "sprite": "poke_capture_0112_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 118,
+    "formId": 118,
+    "gender": 1,
+    "sprite": "poke_capture_0118_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 119,
+    "formId": 119,
+    "gender": 1,
+    "sprite": "poke_capture_0119_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 123,
+    "formId": 123,
+    "gender": 1,
+    "sprite": "poke_capture_0123_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 129,
+    "formId": 129,
+    "gender": 1,
+    "sprite": "poke_capture_0129_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 130,
+    "formId": 130,
+    "gender": 1,
+    "sprite": "poke_capture_0130_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 154,
+    "formId": 154,
+    "gender": 1,
+    "sprite": "poke_capture_0154_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 165,
+    "formId": 165,
+    "gender": 1,
+    "sprite": "poke_capture_0165_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 166,
+    "formId": 166,
+    "gender": 1,
+    "sprite": "poke_capture_0166_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 178,
+    "formId": 178,
+    "gender": 1,
+    "sprite": "poke_capture_0178_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 185,
+    "formId": 185,
+    "gender": 1,
+    "sprite": "poke_capture_0185_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 186,
+    "formId": 186,
+    "gender": 1,
+    "sprite": "poke_capture_0186_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 190,
+    "formId": 190,
+    "gender": 1,
+    "sprite": "poke_capture_0190_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 194,
+    "formId": 194,
+    "gender": 1,
+    "sprite": "poke_capture_0194_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 195,
+    "formId": 195,
+    "gender": 1,
+    "sprite": "poke_capture_0195_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 198,
+    "formId": 198,
+    "gender": 1,
+    "sprite": "poke_capture_0198_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 202,
+    "formId": 202,
+    "gender": 1,
+    "sprite": "poke_capture_0202_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 203,
+    "formId": 203,
+    "gender": 1,
+    "sprite": "poke_capture_0203_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 207,
+    "formId": 207,
+    "gender": 1,
+    "sprite": "poke_capture_0207_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 208,
+    "formId": 208,
+    "gender": 1,
+    "sprite": "poke_capture_0208_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 212,
+    "formId": 212,
+    "gender": 1,
+    "sprite": "poke_capture_0212_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 214,
+    "formId": 214,
+    "gender": 1,
+    "sprite": "poke_capture_0214_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 215,
+    "formId": 215,
+    "gender": 1,
+    "sprite": "poke_capture_0215_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 217,
+    "formId": 217,
+    "gender": 1,
+    "sprite": "poke_capture_0217_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 221,
+    "formId": 221,
+    "gender": 1,
+    "sprite": "poke_capture_0221_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 224,
+    "formId": 224,
+    "gender": 1,
+    "sprite": "poke_capture_0224_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 229,
+    "formId": 229,
+    "gender": 1,
+    "sprite": "poke_capture_0229_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 232,
+    "formId": 232,
+    "gender": 1,
+    "sprite": "poke_capture_0232_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 255,
+    "formId": 255,
+    "gender": 1,
+    "sprite": "poke_capture_0255_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 256,
+    "formId": 256,
+    "gender": 1,
+    "sprite": "poke_capture_0256_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 257,
+    "formId": 257,
+    "gender": 1,
+    "sprite": "poke_capture_0257_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 267,
+    "formId": 267,
+    "gender": 1,
+    "sprite": "poke_capture_0267_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 269,
+    "formId": 269,
+    "gender": 1,
+    "sprite": "poke_capture_0269_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 272,
+    "formId": 272,
+    "gender": 1,
+    "sprite": "poke_capture_0272_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 274,
+    "formId": 274,
+    "gender": 1,
+    "sprite": "poke_capture_0274_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 275,
+    "formId": 275,
+    "gender": 1,
+    "sprite": "poke_capture_0275_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 307,
+    "formId": 307,
+    "gender": 1,
+    "sprite": "poke_capture_0307_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 308,
+    "formId": 308,
+    "gender": 1,
+    "sprite": "poke_capture_0308_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 315,
+    "formId": 315,
+    "gender": 1,
+    "sprite": "poke_capture_0315_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 316,
+    "formId": 316,
+    "gender": 1,
+    "sprite": "poke_capture_0316_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 317,
+    "formId": 317,
+    "gender": 1,
+    "sprite": "poke_capture_0317_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 322,
+    "formId": 322,
+    "gender": 1,
+    "sprite": "poke_capture_0322_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 323,
+    "formId": 323,
+    "gender": 1,
+    "sprite": "poke_capture_0323_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 332,
+    "formId": 332,
+    "gender": 1,
+    "sprite": "poke_capture_0332_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 350,
+    "formId": 350,
+    "gender": 1,
+    "sprite": "poke_capture_0350_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 369,
+    "formId": 369,
+    "gender": 1,
+    "sprite": "poke_capture_0369_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 396,
+    "formId": 396,
+    "gender": 1,
+    "sprite": "poke_capture_0396_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 397,
+    "formId": 397,
+    "gender": 1,
+    "sprite": "poke_capture_0397_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 398,
+    "formId": 398,
+    "gender": 1,
+    "sprite": "poke_capture_0398_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 399,
+    "formId": 399,
+    "gender": 1,
+    "sprite": "poke_capture_0399_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 400,
+    "formId": 400,
+    "gender": 1,
+    "sprite": "poke_capture_0400_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 401,
+    "formId": 401,
+    "gender": 1,
+    "sprite": "poke_capture_0401_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 402,
+    "formId": 402,
+    "gender": 1,
+    "sprite": "poke_capture_0402_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 403,
+    "formId": 403,
+    "gender": 1,
+    "sprite": "poke_capture_0403_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 404,
+    "formId": 404,
+    "gender": 1,
+    "sprite": "poke_capture_0404_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 405,
+    "formId": 405,
+    "gender": 1,
+    "sprite": "poke_capture_0405_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 407,
+    "formId": 407,
+    "gender": 1,
+    "sprite": "poke_capture_0407_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 415,
+    "formId": 415,
+    "gender": 1,
+    "sprite": "poke_capture_0415_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 417,
+    "formId": 417,
+    "gender": 1,
+    "sprite": "poke_capture_0417_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 418,
+    "formId": 418,
+    "gender": 1,
+    "sprite": "poke_capture_0418_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 419,
+    "formId": 419,
+    "gender": 1,
+    "sprite": "poke_capture_0419_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 424,
+    "formId": 424,
+    "gender": 1,
+    "sprite": "poke_capture_0424_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 443,
+    "formId": 443,
+    "gender": 1,
+    "sprite": "poke_capture_0443_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 444,
+    "formId": 444,
+    "gender": 1,
+    "sprite": "poke_capture_0444_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 445,
+    "formId": 445,
+    "gender": 1,
+    "sprite": "poke_capture_0445_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 449,
+    "formId": 449,
+    "gender": 1,
+    "sprite": "poke_capture_0449_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 450,
+    "formId": 450,
+    "gender": 1,
+    "sprite": "poke_capture_0450_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 453,
+    "formId": 453,
+    "gender": 1,
+    "sprite": "poke_capture_0453_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 454,
+    "formId": 454,
+    "gender": 1,
+    "sprite": "poke_capture_0454_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 456,
+    "formId": 456,
+    "gender": 1,
+    "sprite": "poke_capture_0456_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 457,
+    "formId": 457,
+    "gender": 1,
+    "sprite": "poke_capture_0457_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 459,
+    "formId": 459,
+    "gender": 1,
+    "sprite": "poke_capture_0459_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 460,
+    "formId": 460,
+    "gender": 1,
+    "sprite": "poke_capture_0460_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 461,
+    "formId": 461,
+    "gender": 1,
+    "sprite": "poke_capture_0461_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 464,
+    "formId": 464,
+    "gender": 1,
+    "sprite": "poke_capture_0464_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 465,
+    "formId": 465,
+    "gender": 1,
+    "sprite": "poke_capture_0465_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 473,
+    "formId": 473,
+    "gender": 1,
+    "sprite": "poke_capture_0473_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 521,
+    "formId": 521,
+    "gender": 1,
+    "sprite": "poke_capture_0521_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 592,
+    "formId": 592,
+    "gender": 1,
+    "sprite": "poke_capture_0592_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 593,
+    "formId": 593,
+    "gender": 1,
+    "sprite": "poke_capture_0593_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 668,
+    "formId": 668,
+    "gender": 1,
+    "sprite": "poke_capture_0668_000_fd_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 678,
+    "formId": 678,
+    "gender": 2,
+    "sprite": "poke_capture_0678_000_mo_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  },
+  {
+    "speciesId": 876,
+    "formId": 876,
+    "gender": 2,
+    "sprite": "poke_capture_0876_000_mo_n_00000000_f_r.png",
+    "isCaught": false,
+    "isShiny": true
+  }
+]

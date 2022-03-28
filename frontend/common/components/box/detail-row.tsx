@@ -1,5 +1,4 @@
 import { FC } from "react";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/detail.module.scss";
 import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";

@@ -1,0 +1,498 @@
+[
+  {
+    "speciesId": 869,
+    "formId": 1263,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1264,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1265,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1266,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1267,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1268,
+    "gender": 1,
+    "sprite": "poke_capture_0869_000_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1269,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1270,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1271,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1272,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1273,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1274,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1275,
+    "gender": 1,
+    "sprite": "poke_capture_0869_001_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1276,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1277,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1278,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1279,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1280,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1281,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1282,
+    "gender": 1,
+    "sprite": "poke_capture_0869_002_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1283,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1284,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1285,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1286,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1287,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1288,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1289,
+    "gender": 1,
+    "sprite": "poke_capture_0869_003_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1290,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1291,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1292,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1293,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1294,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1295,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1296,
+    "gender": 1,
+    "sprite": "poke_capture_0869_004_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1297,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1298,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1299,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1300,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1301,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1302,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1303,
+    "gender": 1,
+    "sprite": "poke_capture_0869_005_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1304,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1305,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1306,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1307,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1308,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1309,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1310,
+    "gender": 1,
+    "sprite": "poke_capture_0869_006_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1311,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1312,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1313,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1314,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1315,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1316,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1317,
+    "gender": 1,
+    "sprite": "poke_capture_0869_007_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1318,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000000_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1319,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000001_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1320,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000002_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1321,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000003_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1322,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000004_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1323,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000005_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  },
+  {
+    "speciesId": 869,
+    "formId": 1324,
+    "gender": 1,
+    "sprite": "poke_capture_0869_008_fo_n_00000006_f_n.png",
+    "isCaught": false,
+    "isShiny": false
+  }
+]

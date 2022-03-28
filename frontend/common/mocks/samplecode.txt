@@ -1,0 +1,73 @@
+    
+ // normal dex   
+    
+    let tempArr = [...spritesSpecies];
+    let newArr = [];
+   
+    tempArr.map((poke) => {
+      poke.forms.map((form, index) => {
+        if (index === 0) {
+          let newPoke = {
+            speciesId: poke.pokemonId,
+            formId: form.formId,
+            gender: poke.genderRate === -1 ? 0 : poke.genderRate === 0 ? 2 : 1,
+            sprite: form.sprite,
+            isCaught: false,
+            isShiny: false,
+          };
+          newArr.push(newPoke);
+        }
+      });
+    });
+
+    console.log(newArr);
+    
+// shiny dex
+    tempArr.map((poke) => {
+      poke.forms.map((form, index) => {
+        if (index === 0) {
+          let newPoke = {
+            speciesId: poke.pokemonId,
+            formId: form.formId,
+            gender: poke.genderRate === -1 ? 0 : poke.genderRate === 0 ? 2 : 1,
+            sprite: form.sprite,
+            isCaught: false,
+            isShiny: true,
+          };
+          newArr.push(newPoke);
+        }
+      });
+    });
+
+    //
+
+      let tempArr = [...spritesSpecies];
+    let newArr = [];
+
+    tempArr.map((poke) => {
+      poke.forms.map((form, index) => {
+        if (
+          form.isMega === 0 &&
+          form.name !== "totem-alola" &&
+          form.name !== "totem" &&
+          form.name !== "alola" &&
+          form.name !== "galar" &&
+          form.name !== "" &&
+          poke.pokemonId !== 869 &&
+          poke.pokemonId > 350 &&
+          form.name !== "primal"
+        ) {
+          let newPoke = {
+            speciesId: poke.pokemonId,
+            formId: form.formId,
+            gender: poke.genderRate === -1 ? 0 : poke.genderRate === 0 ? 2 : 1,
+            sprite: form.sprite,
+            isCaught: false,
+            isShiny: false,
+          };
+          newArr.push(newPoke);
+        }
+      });
+    });
+
+    console.log(newArr);

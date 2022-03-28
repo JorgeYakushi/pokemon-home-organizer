@@ -3,7 +3,7 @@ import Image from "next/image";
 import styles from "@/styles/table.module.scss";
 import { IBoxItem } from "@/interfaces/box-items.interface";
 import { IPokemonDetail } from "@/interfaces/pokemon-detail.interface";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import {
   selectPokemonData,

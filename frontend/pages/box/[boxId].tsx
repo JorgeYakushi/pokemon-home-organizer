@@ -3,25 +3,25 @@ import type { NextPage } from "next";
 import styles from "@/styles/table.module.scss";
 import { useRouter } from "next/router";
 import { IUserBoxes } from "@/interfaces/box-items.interface";
-import {
-  IPokemonData,
-  IPokemonDetail,
-} from "@/interfaces/pokemon-detail.interface";
+import { IPokemonData } from "@/interfaces/pokemon-detail.interface";
 import { PokemonDetail } from "@/components/box/detail";
 import { Header } from "@/components/layout/header";
 import { TableBody } from "@/components/box/table-body";
 import { TableHeader } from "@/components/box/table-header";
 import axios from "axios";
-
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import {
   loadMap,
   selectPokemonData,
 } from "@/redux/features/pokemonData/pokemonDataSlice";
+
 const Box: NextPage = (props: any) => {
   const dispatch = useAppDispatch();
   const pokemonData = useAppSelector(selectPokemonData);
   const [userBoxes, setUserBoxes] = useState<IUserBoxes>();
+  const router = useRouter();
+  const [currentBox, setCurrentBox] = useState(0);
+
   useEffect(() => {
     if (props.userData && !userBoxes) {
       setUserBoxes(props.userData);
@@ -30,9 +30,6 @@ const Box: NextPage = (props: any) => {
       dispatch(loadMap(pokemonData));
     }
   }, [props, userBoxes, dispatch]);
-
-  const router = useRouter();
-  const [currentBox, setCurrentBox] = useState(0);
 
   useEffect(() => {
     if (!router.isReady) return;

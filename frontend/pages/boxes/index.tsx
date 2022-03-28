@@ -7,8 +7,6 @@ import styles from "@/styles/modules/table.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-import spritesSpecies from "../../common/mocks/specieswithsprites.json";
-
 interface IBoxItem {
   id: number;
   box_id: number;
