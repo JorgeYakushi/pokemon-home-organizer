@@ -18,3 +18,8 @@
 - Presets: Import / Export (TBD)
 - Detailed pokemon view
 - Global settings
+
+# Done
+
+- Added default presets as JSON
+- Redux for box data
