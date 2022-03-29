@@ -6,6 +6,7 @@ import Select, { createFilter } from "react-select";
 import { IDropdown } from "@/interfaces/select.interface";
 import { useEffect, useState } from "react";
 import { IPreset, IPokemonPreset } from "@/interfaces/presets.interface";
+import { PresetPreview } from "@/components/presets/preview";
 const Presets: NextPage = () => {
   const dropDownList: IDropdown[] = basePresets.map((item, index) => ({
     value: index,
@@ -40,9 +41,11 @@ const Presets: NextPage = () => {
         </div>
         <div>
           <p>{currentPreset.name}</p>
-          {presetPreview.map((item, index) => (
-            <div key={index}> asd</div>
-          ))}
+          <div className={styles.presets__container}>
+            {presetPreview.map((item, index) => (
+              <PresetPreview key={index} preset={item}></PresetPreview>
+            ))}
+          </div>
         </div>
       </div>
     </>

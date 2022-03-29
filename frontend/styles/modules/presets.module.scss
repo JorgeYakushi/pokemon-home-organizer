@@ -1,0 +1,17 @@
+.presets {
+  &__container {
+    display: block ruby;
+    max-width: 500px;
+    overflow: auto;
+  }
+  &__table {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    justify-content: space-between;
+    grid-gap: 15px;
+    border: 4px solid #82cfe7;
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    background-color: var(--color-primary-light2c);
+  }
+}
