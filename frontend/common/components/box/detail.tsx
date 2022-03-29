@@ -12,11 +12,8 @@ import {
   setCurrentPokemon,
   selectCurrentPokemon,
 } from "@/redux/features/currentPokemon/currentPokemonSlice";
+import { IDropdown } from "@/interfaces/select.interface";
 
-interface IDropdown {
-  value: number;
-  label: string;
-}
 export const PokemonDetail: FC = () => {
   const dispatch = useAppDispatch();
   const currentPokemon = useAppSelector(selectCurrentPokemon);

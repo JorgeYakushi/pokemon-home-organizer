@@ -16,7 +16,6 @@ interface IDetailRowProps {
     pokemon: string;
     name: string | number;
     speciesId: number;
-    isBattleOnly: number;
     isMega: number;
     formOrder: number;
     order: number;
